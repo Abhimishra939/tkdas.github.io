@@ -1,54 +1,203 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Dr. T.K. Das</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dr. T.K. Das | ICAR-IARI</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 
-body{
-font-family: Arial;
+*{
 margin:0;
 padding:0;
-background:#f4f7f9;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f5f7fa;
+color:#222;
+line-height:1.6;
 }
 
 header{
-background:#0b3d2e;
-color:white;
-padding:40px;
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1');
+background-size:cover;
+background-position:center;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
 text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero{
+max-width:800px;
+}
+
+.hero img{
+width:170px;
+height:170px;
+border-radius:50%;
+border:5px solid white;
+object-fit:cover;
+margin-bottom:20px;
+box-shadow:0 5px 20px rgba(0,0,0,0.4);
+}
+
+.hero h1{
+font-size:52px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:15px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 28px;
+background:#2e8b57;
+color:white;
+text-decoration:none;
+border-radius:30px;
+margin-top:15px;
+transition:0.3s;
+font-weight:500;
+}
+
+.btn:hover{
+background:#206040;
+transform:translateY(-2px);
 }
 
 .container{
 width:90%;
+max-width:1200px;
 margin:auto;
-padding:20px;
+padding:70px 0;
+}
+
+.section-title{
+text-align:center;
+font-size:38px;
+margin-bottom:50px;
+color:#0b3d2e;
+position:relative;
+}
+
+.section-title::after{
+content:'';
+width:80px;
+height:4px;
+background:#2e8b57;
+display:block;
+margin:10px auto;
+border-radius:10px;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
 }
 
 .card{
 background:white;
-padding:20px;
-margin:20px 0;
-border-radius:10px;
-box-shadow:0 2px 8px rgba(0,0,0,0.1);
+padding:35px;
+border-radius:18px;
+text-align:center;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+transition:0.3s;
 }
 
-h2{
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h2{
+font-size:42px;
+color:#2e8b57;
+margin-bottom:10px;
+}
+
+.card p{
+font-size:18px;
+font-weight:500;
+}
+
+.about{
+background:white;
+padding:45px;
+border-radius:18px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.about p{
+font-size:18px;
+margin-bottom:20px;
+}
+
+.pub-list{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.pub{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 18px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.pub:hover{
+transform:translateY(-5px);
+}
+
+.pub h3{
 color:#0b3d2e;
-}
-
-.metric{
-font-size:22px;
-font-weight:bold;
-color:#006400;
+margin-bottom:12px;
 }
 
 footer{
 background:#0b3d2e;
 color:white;
 text-align:center;
-padding:15px;
-margin-top:30px;
+padding:25px;
+margin-top:50px;
+}
+
+footer a{
+color:#90ee90;
+text-decoration:none;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:36px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+header{
+height:auto;
+padding:80px 20px;
+}
+
 }
 
 </style>
@@ -57,58 +206,120 @@ margin-top:30px;
 <body>
 
 <header>
+
+<div class="hero">
+
+<img src="https://www.iari.res.in/sci_db/photo/10499.jpg" alt="Profile">
+
 <h1>Dr. T.K. Das</h1>
-<p>Principal Scientist, Division of Agronomy</p>
-<p>ICAR-IARI, New Delhi</p>
-</header>
 
-<div class="container">
+<p>
+Principal Scientist<br>
+Division of Agronomy<br>
+ICAR-IARI, New Delhi
+</p>
 
-<div class="card">
-<h2>Research Impact</h2>
-
-<p class="metric">7958+ Citations</p>
-<p class="metric">45+ h-index</p>
-<p class="metric">167+ i10-index</p>
-
-</div>
-
-<div class="card">
-<h2>Research Areas</h2>
-
-<ul>
-<li>Weed Science</li>
-<li>Agronomy</li>
-<li>Conservation Agriculture</li>
-<li>Herbicide Management</li>
-</ul>
-
-</div>
-
-<div class="card">
-<h2>Books & Publications</h2>
-
-<ul>
-<li>Weed Science: Basics and Applications</li>
-<li>Weed Management Technical Bulletin</li>
-<li>150+ Research Publications</li>
-</ul>
-
-</div>
-
-<div class="card">
-<h2>Google Scholar</h2>
-
-<a href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ">
-View Google Scholar Profile
+<a class="btn" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank">
+View Google Scholar
 </a>
 
 </div>
 
+</header>
+
+<section class="container">
+
+<h2 class="section-title">Research Impact</h2>
+
+<div class="stats">
+
+<div class="card">
+<h2>7958+</h2>
+<p>Citations</p>
 </div>
 
+<div class="card">
+<h2>45+</h2>
+<p>h-index</p>
+</div>
+
+<div class="card">
+<h2>167+</h2>
+<p>i10-index</p>
+</div>
+
+<div class="card">
+<h2>150+</h2>
+<p>Research Publications</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="container">
+
+<h2 class="section-title">About</h2>
+
+<div class="about">
+
+<p>
+Dr. T.K. Das is a Principal Scientist in the Division of Agronomy at ICAR-Indian Agricultural Research Institute, New Delhi.
+</p>
+
+<p>
+His research focuses on Weed Science, Conservation Agriculture, Herbicide Management, Sustainable Crop Production, and Precision Agronomy.
+</p>
+
+<p>
+He has guided multiple M.Sc. and Ph.D. students and contributed extensively to agricultural research and education.
+</p>
+
+</div>
+
+</section>
+
+<section class="container">
+
+<h2 class="section-title">Books & Publications</h2>
+
+<div class="pub-list">
+
+<div class="pub">
+<h3>Weed Science: Basics and Applications</h3>
+<p>
+Comprehensive academic resource on weed management and agronomic applications.
+</p>
+</div>
+
+<div class="pub">
+<h3>Weed Management Technical Bulletin</h3>
+<p>
+Technical recommendations and practical weed management approaches for Indian agriculture.
+</p>
+</div>
+
+<div class="pub">
+<h3>Research Publications</h3>
+<p>
+Published 150+ peer-reviewed articles in reputed national and international journals.
+</p>
+</div>
+
+</div>
+
+</section>
+
 <footer>
-© Dr. T.K. Das | ICAR-IARI
+
+<p>
+© 2026 Dr. T.K. Das | ICAR-IARI New Delhi
+</p>
+
+<p>
+Google Scholar Profile Available Online
+</p>
+
 </footer>
 
 </body>
