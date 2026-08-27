@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. T.K. Das | ICAR-IARI</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --paper:#F1EDE1;
+    --paper-alt:#E7E1CE;
+    --charcoal:#15150F;
+    --charcoal-soft:#23221A;
+    --ink:#1E2A1C;
+    --ink-soft:#57604F;
+    --gold:#C0923A;
+    --gold-soft:#E3C685;
+    --sage:#576B4C;
+    --line: rgba(21,21,15,0.14);
+    --line-dark: rgba(241,237,225,0.16);
+    --radius: 4px;
+  }
+
+  *{ margin:0; padding:0; box-sizing:border-box; }
+
+  html{ scroll-behavior:smooth; }
+
+  body{
+    font-family:'Inter', sans-serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .furrow{
+    height:10px;
+    background:repeating-linear-gradient(
+      90deg,
+      var(--gold) 0px, var(--gold) 26px,
+      transparent 26px, transparent 40px
+    );
+    opacity:0.55;
+  }
+
+  /* ---------- NAV (persistent) ---------- */
+  nav{
+    background:var(--charcoal);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 6%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    height:74px;
+    border-bottom:1px solid var(--line-dark);
+  }
+
+  .logo{
+    color:var(--paper);
+    font-family:'Fraunces', serif;
+    font-size:21px;
+    font-weight:600;
+    letter-spacing:0.01em;
+  }
+  .logo span{ color:var(--gold-soft); }
+
+  .nav-links{
+    display:flex;
+    list-style:none;
+    gap:8px;
+    align-items:center;
+  }
+
+  .nav-links li a{
+    color:rgba(241,237,225,0.78);
+    text-decoration:none;
+    font-weight:500;
+    font-size:14px;
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+    padding:8px 14px;
+    border-radius:2px;
+    position:relative;
+    transition:color 0.25s ease;
+  }
+
+  .nav-links li a::after{
+    content:'';
+    position:absolute;
+    left:14px; right:14px; bottom:4px;
+    height:2px;
+    background:var(--gold);
+    transform:scaleX(0);
+    transform-origin:center;
+    transition:transform 0.25s ease;
+  }
+
+  .nav-links li a:hover,
+  .nav-links li a.active{
+    color:var(--paper);
+  }
+  .nav-links li a:hover::after,
+  .nav-links li a.active::after{
+    transform:scaleX(1);
+  }
+
+  .nav-toggle{
+    display:none;
+    flex-direction:column;
+    gap:5px;
+    background:none;
+    border:none;
+    cursor:pointer;
+    padding:8px;
+  }
+  .nav-toggle span{
+    width:24px; height:2px; background:var(--paper);
+  }
+
+  /* ---------- HERO ---------- */
+  header.hero-section{
+    position:relative;
+    background:var(--charcoal);
+    color:var(--paper);
+    padding:110px 6% 90px;
+    overflow:hidden;
+  }
+
+  header.hero-section::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    background-image:
+      repeating-linear-gradient(180deg, rgba(241,237,225,0.045) 0px, rgba(241,237,225,0.045) 1px, transparent 1px, transparent 64px);
+    pointer-events:none;
+  }
+
+  .hero-grid{
+    position:relative;
+    max-width:1180px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:auto 1fr;
+    gap:56px;
+    align-items:center;
+  }
+
+  .hero-photo{
+    width:190px;
+    height:190px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid var(--gold);
+    box-shadow:0 0 0 10px rgba(192,146,58,0.08);
+  }
+
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--gold-soft);
+    margin-bottom:16px;
+    display:block;
+  }
+
+  .hero-grid h1{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:clamp(38px, 5vw, 60px);
+    line-height:1.05;
+    margin-bottom:16px;
+  }
+
+  .hero-grid .role{
+    font-size:18px;
+    color:rgba(241,237,225,0.75);
+    margin-bottom:28px;
+  }
+  .hero-grid .role strong{ color:var(--paper); font-weight:500; }
+
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:13px 26px;
+    background:transparent;
+    color:var(--paper);
+    text-decoration:none;
+    border:1.5px solid var(--gold);
+    border-radius:2px;
+    font-weight:500;
+    font-size:14px;
+    letter-spacing:0.02em;
+    transition:all 0.25s ease;
+  }
+
+  .btn:hover{
+    background:var(--gold);
+    color:var(--charcoal);
+    transform:translateY(-2px);
+  }
+
+  /* ---------- SECTIONS ---------- */
+  .container{
+    width:90%;
+    max-width:1180px;
+    margin:auto;
+    padding:90px 0;
+  }
+
+  .section-head{
+    margin-bottom:50px;
+  }
+
+  .section-head .eyebrow{ color:var(--sage); }
+
+  .section-head h2{
+    font-family:'Fraunces', serif;
+    font-size:36px;
+    font-weight:600;
+    color:var(--ink);
+  }
+
+  /* Impact stat cards */
+  .stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+  }
+
+  .stat-card{
+    background:var(--paper);
+    padding:38px 30px;
+    text-align:left;
+    opacity:0;
+    transform:translateY(16px);
+    transition:opacity 0.6s ease, transform 0.6s ease;
+  }
+  .stat-card.in-view{ opacity:1; transform:translateY(0); }
+
+  .stat-card .num{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:44px;
+    font-weight:600;
+    color:var(--charcoal);
+    display:block;
+    margin-bottom:8px;
+  }
+  .stat-card .num span{ color:var(--gold); }
+
+  .stat-card p{
+    font-size:14px;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    font-weight:500;
+  }
+
+  /* About */
+  .about-grid{
+    display:grid;
+    grid-template-columns:1.3fr 1fr;
+    gap:60px;
+    align-items:start;
+  }
+
+  .about-grid p{
+    font-size:17px;
+    color:var(--ink-soft);
+    margin-bottom:20px;
+  }
+  .about-grid p strong{ color:var(--ink); font-weight:600; }
+
+  .focus-list{
+    background:var(--paper-alt);
+    border-left:3px solid var(--gold);
+    padding:32px;
+  }
+  .focus-list h3{
+    font-family:'Fraunces', serif;
+    font-size:19px;
+    margin-bottom:18px;
+    color:var(--ink);
+  }
+  .focus-list ul{ list-style:none; }
+  .focus-list li{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13.5px;
+    color:var(--ink-soft);
+    padding:10px 0;
+    border-bottom:1px solid var(--line);
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+  }
+  .focus-list li:last-child{ border-bottom:none; }
+  .focus-list li::before{
+    content:'—';
+    color:var(--gold);
+  }
+
+  /* Publications: index card style */
+  .pub-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:22px;
+  }
+
+  .pub{
+    background:var(--paper-alt);
+    padding:28px 26px;
+    border:1px solid var(--line);
+    border-top:3px solid var(--sage);
+    transition:transform 0.25s ease, border-color 0.25s ease;
+  }
+  .pub:hover{
+    transform:translateY(-4px);
+    border-top-color:var(--gold);
+  }
+  .pub .tag{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--gold);
+    margin-bottom:10px;
+    display:block;
+  }
+  .pub h3{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:19px;
+    color:var(--ink);
+    margin-bottom:12px;
+  }
+  .pub p{
+    font-size:14.5px;
+    color:var(--ink-soft);
+  }
+
+  /* Contact / footer */
+  .contact-band{
+    background:var(--charcoal);
+    color:var(--paper);
+    text-align:center;
+    padding:80px 6%;
+  }
+  .contact-band h2{
+    font-family:'Fraunces', serif;
+    font-size:32px;
+    margin-bottom:16px;
+  }
+  .contact-band p{
+    color:rgba(241,237,225,0.7);
+    margin-bottom:30px;
+    font-size:16px;
+  }
+
+  footer{
+    background:var(--charcoal);
+    color:rgba(241,237,225,0.55);
+    text-align:center;
+    padding:22px;
+    font-size:13px;
+    border-top:1px solid var(--line-dark);
+  }
+  footer a{ color:var(--gold-soft); text-decoration:none; }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    .stat-card{ transition:none; opacity:1; transform:none; }
+  }
+
+  @media(max-width:860px){
+    .hero-grid{ grid-template-columns:1fr; text-align:center; justify-items:center; }
+    .about-grid{ grid-template-columns:1fr; }
+  }
+
+  @media(max-width:768px){
+    .nav-links{
+      position:absolute;
+      top:74px; left:0; right:0;
+      background:var(--charcoal);
+      flex-direction:column;
+      align-items:flex-start;
+      padding:10px 6% 20px;
+      display:none;
+      border-bottom:1px solid var(--line-dark);
+    }
+    .nav-links.open{ display:flex; }
+    .nav-toggle{ display:flex; }
+    header.hero-section{ padding:70px 6% 60px; }
+    .hero-grid{ gap:30px; }
+    .container{ padding:64px 0; }
+  }
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">T.K. <span>Das</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#impact">Impact</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<header class="hero-section" id="home">
+  <div class="hero-grid">
+    <img class="hero-photo" src="https://www.iari.res.in/sci_db/photo/10499.jpg" alt="Dr. T.K. Das">
+    <div>
+      <span class="eyebrow">Division of Agronomy · ICAR-IARI, New Delhi</span>
+      <h1>Dr. T.K. Das</h1>
+      <p class="role">
+        <strong>Principal Scientist</strong> &amp; Professor —
+        Weed Science, Conservation Agriculture and Precision Agronomy
+      </p>
+      <a class="btn" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">
+        View Google Scholar ↗
+      </a>
+    </div>
+  </div>
+</header>
+<div class="furrow"></div>
+
+<section class="container" id="impact">
+  <div class="section-head">
+    <span class="eyebrow">By the numbers</span>
+    <h2>Research Impact</h2>
+  </div>
+
+  <div class="stats">
+    <div class="stat-card"><span class="num">8269<span>+</span></span><p>Citations</p></div>
+    <div class="stat-card"><span class="num">45<span>+</span></span><p>h-index</p></div>
+    <div class="stat-card"><span class="num">168<span>+</span></span><p>i10-index</p></div>
+    <div class="stat-card"><span class="num">250<span>+</span></span><p>Publications</p></div>
+  </div>
+</section>
+
+<section class="container" id="about">
+  <div class="section-head">
+    <span class="eyebrow">Profile</span>
+    <h2>About</h2>
+  </div>
+
+  <div class="about-grid">
+    <div>
+      <p>
+        Dr. T.K. Das is a <strong>Principal Scientist</strong> in the Division of Agronomy at
+        ICAR-Indian Agricultural Research Institute, New Delhi.
+      </p>
+      <p>
+        His research centres on weed science, conservation agriculture, herbicide management,
+        sustainable crop production and precision agronomy — work that shapes practical, field-level
+        recommendations for Indian agriculture.
+      </p>
+      <p>
+        He has guided multiple M.Sc. and Ph.D. students and contributed extensively to agricultural
+        research, mentorship and academic publishing.
+      </p>
+    </div>
+
+    <div class="focus-list">
+      <h3>Research Focus</h3>
+      <ul>
+        <li>Weed Science</li>
+        <li>Conservation Agriculture</li>
+        <li>Herbicide Management</li>
+        <li>Sustainable Crop Production</li>
+        <li>Precision Agronomy</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="container" id="publications">
+  <div class="section-head">
+    <span class="eyebrow">Books &amp; papers</span>
+    <h2>Publications</h2>
+  </div>
+
+  <div class="pub-list">
+    <div class="pub">
+      <span class="tag">Book</span>
+      <h3>Weed Science: Basics and Applications</h3>
+      <p>Comprehensive academic resource on weed management and agronomic applications.</p>
+    </div>
+    <div class="pub">
+      <span class="tag">Bulletin</span>
+      <h3>Weed Management Technical Bulletin</h3>
+      <p>Technical recommendations and practical weed management approaches for Indian agriculture.</p>
+    </div>
+    <div class="pub">
+      <span class="tag">Journals</span>
+      <h3>Research Publications</h3>
+      <p>150+ peer-reviewed articles published in reputed national and international journals.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact-band" id="contact">
+  <h2>Get in touch</h2>
+  <p>Division of Agronomy, ICAR-IARI, Pusa Campus, New Delhi</p>
+  <a class="btn" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">
+    View Google Scholar ↗
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 Dr. T.K. Das · ICAR-IARI, New Delhi</p>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navLinks.querySelectorAll('a').forEach(a =>
+    a.addEventListener('click', () => navLinks.classList.remove('open'))
+  );
+
+  // Active nav link on scroll
+  const sections = document.querySelectorAll('section[id], header[id]');
+  const links = document.querySelectorAll('.nav-links a');
+  const setActive = () => {
+    let current = 'home';
+    sections.forEach(sec => {
+      const top = sec.offsetTop - 100;
+      if (window.scrollY >= top) current = sec.getAttribute('id');
+    });
+    links.forEach(l => {
+      l.classList.toggle('active', l.getAttribute('href') === '#' + current);
+    });
+  };
+  window.addEventListener('scroll', setActive);
+  setActive();
+
+  // Reveal stat cards on scroll
+  const cards = document.querySelectorAll('.stat-card');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in-view'); });
+  }, { threshold: 0.2 });
+  cards.forEach(c => io.observe(c));
+</script>
+
+</body>
+</html>
