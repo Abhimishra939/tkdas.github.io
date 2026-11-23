@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#132b20">
-<meta name="description" content="Academic profile of Dr. T.K. Das, Principal Scientist, Division of Agronomy, ICAR-IARI, New Delhi.">
-<title>Publications | Dr. T.K. Das</title>
+<meta name="theme-color" content="#142b21">
+<meta name="description" content="Complete bibliography of Dr. Tapas Kumar Das: 309 research articles, 22 review papers, 89 book chapters, and extension literature.">
+<title>Publications (~576 Records) | Dr. T.K. Das</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -13,41 +13,72 @@
 </head>
 <body>
 <nav class="nav"><div class="wrap nav-inner">
-<a class="brand" href="index.html"><span class="brand-mark">TD</span><span>T.K. DAS<small>AGRONOMY · IARI</small></span></a>
-<button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
-<ul class="nav-links" id="navLinks">
+  <a class="brand" href="index.html"><span class="brand-mark">TD</span><span>DR. T.K. DAS<small>AGRONOMY · ICAR-IARI</small></span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <ul class="nav-links" id="navLinks">
   <li><a href="index.html">Home</a></li>
-  <li><a href="about.html">Profile</a></li>
-  <li><a href="research.html">Research</a></li>
+  <li><a href="about.html">Profile & Mentorship</a></li>
+  <li><a href="research.html">Research & Projects</a></li>
   <li><a href="achievements.html">Achievements</a></li>
+  <li><a href="books.html">Books & Chapters</a></li>
   <li><a href="publications.html" class="active">Publications</a></li>
   <li><a href="top50.html">Top 50</a></li>
   <li><a href="contact.html">Contact</a></li>
-</ul>
+  </ul>
+  <div class="theme-switcher" title="Switch Live Theme">
+    <button class="theme-dot active" data-t="emerald" aria-label="Emerald Agron Theme"></button>
+    <button class="theme-dot" data-t="royal" aria-label="Academic Royal Theme"></button>
+    <button class="theme-dot" data-t="midnight" aria-label="Midnight Dark Theme"></button>
+    <button class="theme-dot" data-t="terracotta" aria-label="Terracotta Harvest Theme"></button>
+  </div>
 </div></nav>
+
 <header class="page-hero"><div class="wrap">
-  <div class="eyebrow">Scholarly output</div>
-  <h1>Research publications</h1>
-  <p>Publications synced daily from Google Scholar via SerpApi. Open individual papers or the full Scholar profile.</p>
+  <div class="eyebrow">Complete Scholarly Output (~576 Publications)</div>
+  <h1>Research Publications &amp; Bibliography</h1>
+  <p>Browse 309 peer-reviewed research articles, 22 scientific review articles, 89 book chapters, 80+ bulletins/extension/popular articles, and live Google Scholar records.</p>
 </div></header>
-<section class="pub-section page-section">
+
+<section class="page-section">
   <div class="wrap">
-    <div class="section-head pub-top">
-      <div>
-        <p class="status" id="pub-status" style="color:var(--muted);font-size:14px">Loading publications from the scheduled Google Scholar update…</p>
+    <div class="metric-grid" style="margin-bottom:30px">
+      <div class="metric"><div class="metric-num">309</div><div class="metric-label">Research Articles</div><div class="metric-note">173 International · 136 National</div></div>
+      <div class="metric"><div class="metric-num">22</div><div class="metric-label">Review Articles</div><div class="metric-note">9 International · 13 National</div></div>
+      <div class="metric"><div class="metric-num">101</div><div class="metric-label">Books &amp; Chapters</div><div class="metric-note">12 Books/Manuals · 89 Chapters</div></div>
+      <div class="metric"><div class="metric-num">142+</div><div class="metric-label">Bulletins &amp; Outreach</div><div class="metric-note">Folders, Popular Articles &amp; Reports</div></div>
+    </div>
+
+    <div class="filter-bar">
+      <input type="search" id="pubSearch" class="search-input" placeholder="Search by title, co-author, journal, crop, or year…">
+      <div class="pill-group">
+        <button class="pill-btn active" data-pub-tab="research">Research Articles (309+)</button>
+        <button class="pill-btn" data-pub-tab="reviews">Reviews (22)</button>
+        <button class="pill-btn" data-pub-tab="chapters">Book Chapters (89)</button>
+        <button class="pill-btn" data-pub-tab="extension">Bulletins &amp; Popular (88)</button>
+        <button class="pill-btn" data-pub-tab="scholar">Google Scholar Top 100</button>
       </div>
-      <a class="btn btn-primary" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
     </div>
-    <div class="pub-list" id="pub-list-full" style="grid-template-columns:1fr">
-      <div class="empty-pubs">Loading…</div>
-    </div>
+
+    <p id="pub-status" style="color:var(--muted);font-size:13.5px;margin-bottom:18px">Loading complete bibliography…</p>
+    <div class="pub-list" id="all-pubs-container" style="grid-template-columns:1fr"></div>
   </div>
 </section>
+
+
 <footer class="footer">
   <div class="wrap footer-inner">
-    <div><strong>Dr. T.K. Das</strong> · Division of Agronomy, ICAR-IARI, New Delhi</div>
-    <div><a href="index.html">Home</a> · <a href="publications.html">Publications</a> · <a href="contact.html">Contact</a></div>
+    <div><strong>Dr. Tapas Kumar Das</strong> · Professor &amp; Principal Scientist, Division of Agronomy, ICAR–IARI, New Delhi</div>
+    <div>
+      <a href="about.html">Profile</a> ·
+      <a href="books.html">Books &amp; Chapters</a> ·
+      <a href="publications.html">Publications</a> ·
+      <a href="top50.html">Top 50</a> ·
+      <a href="contact.html">Contact</a>
+    </div>
   </div>
-  <div class="wrap update-note" id="dataUpdated">Metrics shown from the last available local data snapshot.</div>
+  <div class="wrap update-note" id="dataUpdated">Google Scholar &amp; Complete Academic CV Archive · Updated 2026.</div>
 </footer>
-<script src="assets/site.js"></script></body></html>
+<script src="assets/biodata_archive.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>

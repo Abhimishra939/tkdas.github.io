@@ -3,30 +3,112 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Books | Dr. T.K. Das</title>
-<link rel="stylesheet" href="assets/site.css">
+<meta name="theme-color" content="#142b21">
+<meta name="description" content="Complete list of 12 books/manuals and 89 book chapters authored and edited by Dr. Tapas Kumar Das.">
+<title>Books & 89 Book Chapters | Dr. T.K. Das</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 <nav class="nav"><div class="wrap nav-inner">
-<a class="brand" href="index.html"><span class="brand-mark">TD</span><span>T.K. DAS<small>AGRONOMY · IARI</small></span></a>
-<ul class="nav-links" id="navLinks">
+  <a class="brand" href="index.html"><span class="brand-mark">TD</span><span>DR. T.K. DAS<small>AGRONOMY · ICAR-IARI</small></span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <ul class="nav-links" id="navLinks">
   <li><a href="index.html">Home</a></li>
-  <li><a href="about.html">Profile</a></li>
+  <li><a href="about.html">Profile & Mentorship</a></li>
+  <li><a href="research.html">Research & Projects</a></li>
+  <li><a href="achievements.html">Achievements</a></li>
+  <li><a href="books.html" class="active">Books & Chapters</a></li>
   <li><a href="publications.html">Publications</a></li>
+  <li><a href="top50.html">Top 50</a></li>
   <li><a href="contact.html">Contact</a></li>
-</ul>
-</div></nav>
-<header class="page-hero"><div class="wrap">
-  <div class="eyebrow">Authored works</div>
-  <h1>Books &amp; technical bulletins</h1>
-</div></header>
-<section class="page-section"><div class="wrap">
-  <div class="research-grid">
-    <div class="research-card"><h3>Weed Science: Basics and Applications</h3><p>Textbook covering fundamentals and field applications of weed science.</p></div>
-    <div class="research-card"><h3>Weed Management Technical Bulletin</h3><p>Technical guidance for integrated weed management in cropping systems.</p></div>
+  </ul>
+  <div class="theme-switcher" title="Switch Live Theme">
+    <button class="theme-dot active" data-t="emerald" aria-label="Emerald Agron Theme"></button>
+    <button class="theme-dot" data-t="royal" aria-label="Academic Royal Theme"></button>
+    <button class="theme-dot" data-t="midnight" aria-label="Midnight Dark Theme"></button>
+    <button class="theme-dot" data-t="terracotta" aria-label="Terracotta Harvest Theme"></button>
   </div>
-</div></section>
-<footer class="footer"><div class="wrap footer-inner"><div><strong>Dr. T.K. Das</strong> · ICAR-IARI</div></div></footer>
+</div></nav>
+
+<header class="page-hero"><div class="wrap">
+  <div class="eyebrow">Authored Textbooks · Manuals · Edited Volumes · 89 Chapters</div>
+  <h1>Books, Manuals &amp; Book Chapters</h1>
+  <p>12 authored/edited books and practical manuals, 89 peer-reviewed book chapters across Springer, CRC Press, Taylor &amp; Francis, Wiley, ICAR &amp; ISA, plus 4 e-publications.</p>
+</div></header>
+
+<section class="page-section">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Part I · 12 Volumes</div>
+      <h2>Books &amp; Practical / Training Manuals (12)</h2>
+      <p>Filter by authored textbooks, edited compendia, or field practical manuals.</p>
+    </div>
+    <div class="filter-bar">
+      <input type="search" id="bookSearch" class="search-input" placeholder="Search books by title, year, publisher, or ISBN…">
+      <div class="pill-group">
+        <button class="pill-btn active" data-book-filter="ALL">All (12)</button>
+        <button class="pill-btn" data-book-filter="Authored Book">Authored Books (5)</button>
+        <button class="pill-btn" data-book-filter="Edited Book">Edited Volumes (5)</button>
+        <button class="pill-btn" data-book-filter="Manual">Practical Manuals (2)</button>
+      </div>
+    </div>
+    <div class="research-grid" id="books-grid"></div>
+  </div>
+</section>
+
+<section class="research page-section">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Part II · Complete 89 Chapters</div>
+      <h2>Book Chapters &amp; Invited Compendium Contributions (89)</h2>
+      <p id="chapter-count-label">Loading all 89 book chapters…</p>
+    </div>
+    <div class="filter-bar">
+      <input type="search" id="chapterSearch" class="search-input" placeholder="Search 89 chapters by topic (e.g., conservation agriculture, herbicide, organic, soil carbon, Springer, CRC)…">
+      <div class="pill-group">
+        <button class="pill-btn active" data-ch-year="ALL">All Years (89)</button>
+        <button class="pill-btn" data-ch-year="2021+">2021–2026</button>
+        <button class="pill-btn" data-ch-year="2015-2020">2015–2020</button>
+        <button class="pill-btn" data-ch-year="Pre-2015">2007–2014</button>
+      </div>
+    </div>
+    <div class="pub-list" id="chapters-grid" style="grid-template-columns:repeat(2,1fr)"></div>
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Part III · Open Digital Knowledge</div>
+      <h2>E-Publications &amp; Global Compilations (4)</h2>
+    </div>
+    <div class="research-grid" style="grid-template-columns:repeat(2,1fr)">
+      <div class="book-card"><span class="badge-tag">NISCAIR E-Book · 60p</span><h3 style="margin-top:8px">Weeds and Their Control Methods (2007)</h3><p>Comprehensive 60-page digital reference published via NISCAIR/NSDL for students and researchers worldwide.</p></div>
+      <div class="book-card"><span class="badge-tag">E-Circulation · 10p</span><h3 style="margin-top:8px">Efficient Weed Management in Crops (2008)</h3><p>Updated guide of registered and research-recommended herbicides for kharif and rabi crops in India.</p></div>
+      <div class="book-card"><span class="badge-tag">Global Compilation · 9p</span><h3 style="margin-top:8px">Global Herbicide Update (2007)</h3><p>Compilation of 286 herbicides globally with common/chemical/trade names, LD<sub>50</sub> values, and Indian registration status.</p></div>
+      <div class="book-card"><span class="badge-tag">Taxonomic Update · 16p</span><h3 style="margin-top:8px">Global Weeds and Their Families (2008)</h3><p>Compilation of 504 weed species across 268 botanical families, crop-wild relatives, and updated nomenclature.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div><strong>Dr. Tapas Kumar Das</strong> · Professor &amp; Principal Scientist, Division of Agronomy, ICAR–IARI, New Delhi</div>
+    <div>
+      <a href="about.html">Profile</a> ·
+      <a href="books.html">Books &amp; Chapters</a> ·
+      <a href="publications.html">Publications</a> ·
+      <a href="top50.html">Top 50</a> ·
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <div class="wrap update-note" id="dataUpdated">Google Scholar &amp; Complete Academic CV Archive · Updated 2026.</div>
+</footer>
+<script src="assets/biodata_archive.js"></script>
 <script src="assets/site.js"></script>
-</body></html>
+</body>
+</html>

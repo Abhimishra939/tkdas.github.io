@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#132b20">
-<meta name="description" content="Top 50 selected research articles of Dr. T.K. Das with NAAS ratings.">
-<title>Top 50 Articles | Dr. T.K. Das</title>
+<meta name="theme-color" content="#142b21">
+<meta name="description" content="Curated Top 50 high-NAAS research articles authored by Dr. Tapas Kumar Das.">
+<title>Top 50 NAAS Articles | Dr. T.K. Das</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -13,18 +13,26 @@
 </head>
 <body>
 <nav class="nav"><div class="wrap nav-inner">
-<a class="brand" href="index.html"><span class="brand-mark">TD</span><span>T.K. DAS<small>AGRONOMY · IARI</small></span></a>
-<button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
-<ul class="nav-links" id="navLinks">
+  <a class="brand" href="index.html"><span class="brand-mark">TD</span><span>DR. T.K. DAS<small>AGRONOMY · ICAR-IARI</small></span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <ul class="nav-links" id="navLinks">
   <li><a href="index.html">Home</a></li>
-  <li><a href="about.html">Profile</a></li>
-  <li><a href="research.html">Research</a></li>
+  <li><a href="about.html">Profile & Mentorship</a></li>
+  <li><a href="research.html">Research & Projects</a></li>
   <li><a href="achievements.html">Achievements</a></li>
+  <li><a href="books.html">Books & Chapters</a></li>
   <li><a href="publications.html">Publications</a></li>
   <li><a href="top50.html" class="active">Top 50</a></li>
   <li><a href="contact.html">Contact</a></li>
-</ul>
+  </ul>
+  <div class="theme-switcher" title="Switch Live Theme">
+    <button class="theme-dot active" data-t="emerald" aria-label="Emerald Agron Theme"></button>
+    <button class="theme-dot" data-t="royal" aria-label="Academic Royal Theme"></button>
+    <button class="theme-dot" data-t="midnight" aria-label="Midnight Dark Theme"></button>
+    <button class="theme-dot" data-t="terracotta" aria-label="Terracotta Harvest Theme"></button>
+  </div>
 </div></nav>
+
 <header class="page-hero"><div class="wrap">
   <div class="eyebrow">Selected scholarly contributions</div>
   <h1>Top 50 Articles</h1>
@@ -32,24 +40,24 @@
 </div></header>
 <section id="top50-articles" class="top50-section">
   <style>
-    .top50-section{max-width:1220px;margin:0 auto;padding:78px 24px;color:#18362a}
+    .top50-section{max-width:1220px;margin:0 auto;padding:78px 24px;color:var(--ink)}
     .top50-section .top50-eyebrow{font:700 11px/1.4 monospace;letter-spacing:.18em;text-transform:uppercase;color:#a17e36}
-    .top50-section h2{font-size:clamp(2rem,4vw,3.3rem);line-height:1.1;margin:12px 0 14px;font-family:Georgia,serif;color:#173528}
+    .top50-section h2{font-size:clamp(2rem,4vw,3.3rem);line-height:1.1;margin:12px 0 14px;font-family:Georgia,serif;color:var(--forest)}
     .top50-section .top50-intro{max-width:720px;color:#66746d;line-height:1.7;margin:0 0 34px}
     .top50-section .top50-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-    .top50-section .top50-card{position:relative;overflow:hidden;display:flex;gap:18px;min-height:245px;border:1px solid #e3e9df;border-radius:20px;padding:23px;background:linear-gradient(145deg,#fff 0%,#fbfcf8 100%);box-shadow:0 5px 18px rgba(20,43,33,.035);transition:transform .32s cubic-bezier(.2,.7,.2,1),box-shadow .32s,border-color .32s,background .32s}
+    .top50-section .top50-card{position:relative;overflow:hidden;display:flex;gap:18px;min-height:245px;border:1px solid var(--line);border-radius:20px;padding:23px;background:var(--surface);box-shadow:0 5px 18px rgba(20,43,33,.035);transition:transform .32s cubic-bezier(.2,.7,.2,1),box-shadow .32s,border-color .32s,background .32s}
     .top50-section .top50-card:before{content:"";position:absolute;left:0;top:0;width:4px;height:100%;background:linear-gradient(#d5ad62,#78966b);transform:scaleY(.35);transform-origin:center;opacity:.65;transition:transform .32s,opacity .32s}
     .top50-section .top50-card:hover{transform:translateY(-7px);box-shadow:0 20px 42px rgba(20,43,33,.12);border-color:#d5ad62;background:#fff}
     .top50-section .top50-card:hover:before{transform:scaleY(1);opacity:1}
     .top50-section .top50-number{flex:0 0 54px;height:54px;border-radius:16px;background:#173528;color:#d6b66e;display:flex;align-items:center;justify-content:center;font:700 1.05rem monospace;box-shadow:inset 0 0 0 1px rgba(213,173,98,.22);transition:transform .32s,background .32s,color .32s}
-    .top50-section .top50-card:hover .top50-number{transform:rotate(-4deg) scale(1.06);background:#d5ad62;color:#173528}
+    .top50-section .top50-card:hover .top50-number{transform:rotate(-4deg) scale(1.06);background:#d5ad62;color:var(--forest)}
     .top50-section .top50-content{min-width:0;display:flex;flex-direction:column;flex:1}
     .top50-section .top50-content:before{content:"RESEARCH ARTICLE  ·  PUBLICATION RECORD";display:block;margin-bottom:9px;font:700 9px/1.4 monospace;letter-spacing:.13em;color:#8a9b8d}
-    .top50-section .top50-citation{margin:0;line-height:1.65;font-size:.92rem;color:#36483d}
+    .top50-section .top50-citation{margin:0;line-height:1.65;font-size:.92rem;color:var(--ink)}
     .top50-section .top50-meta{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;padding-top:18px;flex-wrap:wrap}
     .top50-section .top50-naas{display:inline-flex;align-items:center;font:700 .72rem monospace;letter-spacing:.04em;padding:7px 11px;border-radius:8px;background:#f4ecd9;color:#7a5c24;border:1px solid #e8d9b8}
     .top50-section .top50-link{display:inline-flex;align-items:center;gap:7px;font-weight:700;font-size:.78rem;color:#315b45;text-decoration:none;border:1px solid #dce7dc;border-radius:999px;padding:9px 13px;background:#f7faf5;transition:transform .25s,background .25s,color .25s,border-color .25s,box-shadow .25s}
-    .top50-section .top50-link:hover{transform:translateY(-2px);background:#173528;color:#f7f6ee;border-color:#173528;box-shadow:0 7px 18px rgba(20,43,33,.15)}
+    .top50-section .top50-link:hover{transform:translateY(-2px);background:#173528;color:#f7f6ee;border-color:var(--forest);box-shadow:0 7px 18px rgba(20,43,33,.15)}
     @media(max-width:850px){.top50-section .top50-list{grid-template-columns:1fr}}
     @media(max-width:600px){.top50-section{padding:48px 16px}.top50-section .top50-card{gap:12px;padding:17px;min-height:unset}.top50-section .top50-number{flex-basis:42px;height:42px;border-radius:12px;font-size:.9rem}.top50-section .top50-citation{font-size:.88rem}.top50-section .top50-meta{padding-top:14px}}
   </style>
@@ -520,11 +528,19 @@
     </div>
   </div>
 </section>
+
 <footer class="footer">
   <div class="wrap footer-inner">
-    <div><strong>Dr. T.K. Das</strong> · Division of Agronomy, ICAR-IARI, New Delhi</div>
-    <div><a href="index.html">Home</a> · <a href="publications.html">Publications</a> · <a href="contact.html">Contact</a></div>
+    <div><strong>Dr. Tapas Kumar Das</strong> · Professor &amp; Principal Scientist, Division of Agronomy, ICAR–IARI, New Delhi</div>
+    <div>
+      <a href="about.html">Profile</a> ·
+      <a href="books.html">Books &amp; Chapters</a> ·
+      <a href="publications.html">Publications</a> ·
+      <a href="top50.html">Top 50</a> ·
+      <a href="contact.html">Contact</a>
+    </div>
   </div>
+  <div class="wrap update-note" id="dataUpdated">Google Scholar &amp; Complete Academic CV Archive · Updated 2026.</div>
 </footer>
 <script src="assets/site.js"></script>
 </body>

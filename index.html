@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#132b20">
-<meta name="description" content="Academic profile of Dr. T.K. Das, Principal Scientist, Division of Agronomy, ICAR-IARI, New Delhi. Research in weed science, conservation agriculture and herbicide management.">
-<title>Dr. T.K. Das | Agronomy & Weed Science</title>
+<meta name="theme-color" content="#142b21">
+<meta name="description" content="Academic portfolio of Dr. Tapas Kumar Das (FNASc, FNAAS), Professor & Principal Scientist, Division of Agronomy, ICAR-IARI, New Delhi.">
+<title>Dr. Tapas Kumar Das | Professor & Principal Scientist · ICAR-IARI</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -13,66 +13,85 @@
 </head>
 <body>
 <nav class="nav"><div class="wrap nav-inner">
-<a class="brand" href="index.html"><span class="brand-mark">TD</span><span>T.K. DAS<small>AGRONOMY · IARI</small></span></a>
-<button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
-<ul class="nav-links" id="navLinks">
+  <a class="brand" href="index.html"><span class="brand-mark">TD</span><span>DR. T.K. DAS<small>AGRONOMY · ICAR-IARI</small></span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <ul class="nav-links" id="navLinks">
   <li><a href="index.html" class="active">Home</a></li>
-  <li><a href="about.html">Profile</a></li>
-  <li><a href="research.html">Research</a></li>
+  <li><a href="about.html">Profile & Mentorship</a></li>
+  <li><a href="research.html">Research & Projects</a></li>
   <li><a href="achievements.html">Achievements</a></li>
+  <li><a href="books.html">Books & Chapters</a></li>
   <li><a href="publications.html">Publications</a></li>
   <li><a href="top50.html">Top 50</a></li>
   <li><a href="contact.html">Contact</a></li>
-</ul>
+  </ul>
+  <div class="theme-switcher" title="Switch Live Theme">
+    <button class="theme-dot active" data-t="emerald" aria-label="Emerald Agron Theme"></button>
+    <button class="theme-dot" data-t="royal" aria-label="Academic Royal Theme"></button>
+    <button class="theme-dot" data-t="midnight" aria-label="Midnight Dark Theme"></button>
+    <button class="theme-dot" data-t="terracotta" aria-label="Terracotta Harvest Theme"></button>
+  </div>
 </div></nav>
 
-<header class="hero" id="home"><div class="wrap hero-grid">
-<div class="portrait-wrap">
-  <img class="portrait" src="https://www.iari.res.in/sci_db/photo/10499.jpg" alt="Portrait of Dr. T.K. Das" width="250" height="290">
-  <div class="portrait-caption">ICAR · Indian Agricultural Research Institute</div>
-</div>
-<div class="hero-content">
-  <div class="eyebrow">Division of Agronomy · New Delhi</div>
-  <h1>Dr. T.K. Das</h1>
-  <div class="fellow-badges">
-    <span class="fellow-badge">FNASc</span>
-    <span class="fellow-badge">FNAAS</span>
-    <span class="fellow-note">Fellow of National Academies</span>
+<header class="hero" id="home">
+  <canvas id="heroCanvas"></canvas>
+  <div class="wrap hero-grid">
+    <div class="portrait-wrap" id="portraitWrap">
+      <img class="portrait"
+           src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=wfz2In0AAAAJ"
+           onerror="this.onerror=null;this.src='https://www.iari.res.in/sci_db/photo/10499.jpg';this.onerror=function(){this.outerHTML='<div class=portrait-fallback><span>TKD</span></div>';};"
+           alt="Portrait of Dr. Tapas Kumar Das" width="250" height="285">
+      <div class="portrait-caption">ICAR · Indian Agricultural Research Institute</div>
+    </div>
+    <div class="hero-content">
+      <div class="eyebrow">Division of Agronomy · ICAR–IARI, New Delhi</div>
+      <h1>Dr. Tapas Kumar Das</h1>
+      <div class="fellow-badges">
+        <span class="fellow-badge">FNASc</span>
+        <span class="fellow-badge">FNAAS</span>
+        <span class="fellow-badge">FISA</span>
+        <span class="fellow-badge">FISWS</span>
+        <span class="fellow-badge">FSPPS</span>
+        <span class="fellow-note">President, ISWS (2025–27) · Top 2% World Scientist</span>
+      </div>
+      <p class="hero-sub"><strong>Professor &amp; Principal Scientist</strong> — Pioneering research and ~31 years of academic leadership in Weed Science, Herbicide Physiology &amp; Resistance, and Conservation Agriculture across India, Ethiopia &amp; Afghanistan.</p>
+      <div class="hero-tags">
+        <span>Weed Science &amp; Ecology</span>
+        <span>Conservation Agriculture</span>
+        <span>Herbicide Resistance</span>
+        <span>Soil Carbon &amp; Climate Resilience</span>
+        <span>309+ Research Papers · 12 Books · 89 Chapters</span>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
+        <a class="btn btn-outline" href="books.html">Books &amp; 89 Chapters</a>
+        <a class="btn btn-outline" href="publications.html">All 576+ Publications</a>
+      </div>
+    </div>
   </div>
-  <p class="hero-sub"><strong>Principal Scientist &amp; Professor</strong> — Weed Science, Conservation Agriculture and Herbicide Management.</p>
-  <div class="hero-tags">
-    <span>Weed Science</span>
-    <span>Conservation Agriculture</span>
-    <span>Herbicide Management</span>
-  </div>
-  <div class="actions">
-    <a class="btn btn-primary" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
-    <a class="btn btn-outline" href="research.html">Explore Research</a>
-  </div>
-</div>
-</div></header>
+</header>
 
 <div class="wrap metrics" id="impact">
   <div class="metric-grid">
     <div class="metric">
-      <div class="metric-num" id="scholar-citations">8,860</div>
+      <div class="metric-num" id="scholar-citations" data-count="8867">8,867</div>
       <div class="metric-label">Citations</div>
-      <div class="metric-note">Google Scholar</div>
+      <div class="metric-note">Google Scholar (h-index: 47)</div>
     </div>
     <div class="metric">
-      <div class="metric-num" id="scholar-hindex">47</div>
-      <div class="metric-label">h-index</div>
-      <div class="metric-note">Research impact</div>
-    </div>
-    <div class="metric">
-      <div class="metric-num" id="scholar-i10">170</div>
+      <div class="metric-num" id="scholar-i10" data-count="170">170</div>
       <div class="metric-label">i10-index</div>
-      <div class="metric-note">Publications cited ≥10</div>
+      <div class="metric-note">Papers cited ≥10 times</div>
     </div>
     <div class="metric">
-      <div class="metric-num" id="scholar-pubs">300+</div>
-      <div class="metric-label">Publications</div>
-      <div class="metric-note">Books &amp; research papers</div>
+      <div class="metric-num" data-count="576">576</div>
+      <div class="metric-label">Total Publications</div>
+      <div class="metric-note">309 Articles · 12 Books · 89 Chapters</div>
+    </div>
+    <div class="metric">
+      <div class="metric-num" data-count="134+">134+</div>
+      <div class="metric-label">PG Scholars Guided</div>
+      <div class="metric-note">72 Ph.D. &amp; 62 M.Sc. (21 International)</div>
     </div>
   </div>
 </div>
@@ -81,54 +100,83 @@
   <div class="wrap">
     <div class="section-head">
       <div class="eyebrow">Academic profile</div>
-      <h2>Research rooted in the field.<br>Ideas built for the future.</h2>
-      <p>Advancing sustainable crop production through weed science, conservation agriculture and sustainable cropping systems.</p>
+      <h2>Research rooted in the field.<br>Science built for global food security.</h2>
+      <p>Over three decades of teaching, curriculum innovation, and long-term agronomic experimentation at ICAR–IARI, New Delhi and international universities.</p>
     </div>
     <div class="about-grid">
       <div class="about-copy">
-        <p>Dr. T.K. Das is Principal Scientist and Professor in the Division of Agronomy at ICAR–Indian Agricultural Research Institute (IARI), New Delhi. His work focuses on weed science, conservation agriculture and herbicide management for major cropping systems of India.</p>
-        <p>He has led long-term field experiments on residue management, tillage, herbicides and integrated weed management, contributing to resilient production systems, resource conservation and sustainable agricultural practices.</p>
-        <p><a class="btn btn-primary" href="about.html" style="margin-top:8px">Full profile →</a></p>
+        <p><strong>Dr. Tapas Kumar Das</strong> serves as <strong>Professor (UG &amp; PG)</strong> and <strong>Principal Scientist</strong> in the Division of Agronomy at ICAR–Indian Agricultural Research Institute (IARI), New Delhi. He earned his M.Sc. (3.97/4.00) and Ph.D. (3.82/4.00) in Agronomy from IARI and secured <strong>4th All-India Rank in ICAR-ARS</strong>.</p>
+        <p>He has led 15+ year multi-cropping Conservation Agriculture trials across the Indo-Gangetic Plains, resolved national <em>Phalaris minor</em> herbicide cross-resistance challenges across 763 biotypes, and authored landmark textbooks including <em>Weed Science: Basics and Applications</em> (reprinted 9 times).</p>
+        <div class="actions" style="margin-top:16px">
+          <a class="btn btn-dark" href="about.html">Full Career &amp; Mentorship Record →</a>
+          <a class="btn btn-primary" href="research.html">Research &amp; Technologies →</a>
+        </div>
       </div>
       <div class="focus-panel">
-        <h3>Areas of expertise</h3>
+        <h3>Core Scientific Contributions</h3>
         <ul class="focus-list">
-          <li>Weed Science &amp; Weed Ecology</li>
-          <li>Conservation Agriculture</li>
-          <li>Herbicide Management</li>
-          <li>Sustainable Cropping Systems</li>
-          <li>Integrated Weed Management</li>
+          <li><strong>Conservation Agriculture:</strong> Triple &amp; double zero-till residue systems across 5 irrigated &amp; 12 rainfed rotations</li>
+          <li><strong>Herbicide Resistance:</strong> National management strategies for isoproturon &amp; clodinafop-resistant <em>Phalaris minor</em></li>
+          <li><strong>Novel Concepts:</strong> Seed dormancy breakers (KNO<sub>3</sub>, GA<sub>3</sub>), missing-row wheat sowing &amp; ETL regression models</li>
+          <li><strong>Digital Agronomy Tools:</strong> Co-developer of <em>WeedExpert</em>, <em>AgriGyaan</em>, <em>Herbicide Calculator</em> &amp; CRAN R-package <em>WeedIndices</em></li>
+          <li><strong>Global Teaching:</strong> ~31 years teaching across IARI (India), Alemaya University (Ethiopia) &amp; ANASTU (Afghanistan)</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
 
-<section class="research" id="research">
+<section class="research" id="books-preview">
   <div class="wrap">
-    <div class="section-head">
-      <div class="eyebrow">Research themes</div>
-      <h2>Science for sustainable agriculture</h2>
-      <p>Key areas of research and application across modern crop production systems.</p>
+    <div class="section-head pub-top">
+      <div>
+        <div class="eyebrow">Textbooks · Manuals · 89 Chapters</div>
+        <h2>Authored Books &amp; Compendia</h2>
+        <p>Standard textbooks, practical manuals, and edited volumes adopted across universities in Asia, Africa, Europe, and North America.</p>
+      </div>
+      <a class="btn btn-dark" href="books.html">All 12 Books &amp; 89 Chapters →</a>
     </div>
     <div class="research-grid">
-      <div class="research-card"><div class="research-icon">⌁</div><h3>Weed Management</h3><p>Integrated and ecological approaches to manage weeds and reduce crop losses.</p></div>
-      <div class="research-card"><div class="research-icon">◈</div><h3>Conservation Agriculture</h3><p>Crop production systems built around soil health, residue management and reduced disturbance.</p></div>
-      <div class="research-card"><div class="research-icon">⌘</div><h3>Cropping Systems</h3><p>Improving productivity and resilience across major cereal and pulse-based systems of India.</p></div>
-      <div class="research-card"><div class="research-icon">✳</div><h3>Herbicide Stewardship</h3><p>Responsible herbicide use, resistance management and integrated weed-control strategies.</p></div>
-      <div class="research-card"><div class="research-icon">♧</div><h3>Sustainable Cropping</h3><p>Improving productivity while strengthening environmental performance and resilience.</p></div>
-      <div class="research-card"><div class="research-icon">◎</div><h3>Field Research &amp; Extension</h3><p>Translating research outcomes into practical technologies and farmer-focused solutions.</p></div>
+      <div class="book-card">
+        <span class="badge-tag">ISWS Best Book Award · 9 Reprints</span>
+        <h3 style="margin-top:10px">Weed Science: Basics and Applications</h3>
+        <p>Das, T.K. (2008; reprinted 2009–2023). Jain Brothers, New Delhi. 936p. (ISBN: 81-8360-096-4). Cited 375+ times on Google Scholar.</p>
+      </div>
+      <div class="book-card">
+        <span class="badge-tag">Reference Treatise · 2013</span>
+        <h3 style="margin-top:10px">Weed Biology, Ecology and Management</h3>
+        <p>Das, T.K. (2013). Jain Brothers Publishers, New Delhi. 554p. (ISBN: 978-81-8360-200-6). Comprehensive coverage of weed eco-physiology.</p>
+      </div>
+      <div class="book-card">
+        <span class="badge-tag">Reference Treatise · 2013</span>
+        <h3 style="margin-top:10px">Herbicides: Chemistry and Mode of Action</h3>
+        <p>Das, T.K. (2013). Jain Brothers Publishers, New Delhi. 448p. (ISBN: 978-81-8360-201-3). Molecular mechanisms &amp; selectivity.</p>
+      </div>
+      <div class="book-card">
+        <span class="badge-tag">Edited Volume · 2025</span>
+        <h3 style="margin-top:10px">Conservation Agriculture for Efficient Resource Use and Climate Resilience</h3>
+        <p>Das, T.K. et al. (eds.) (2025). ICAR–Indian Agricultural Research Institute, New Delhi. 319p. (ISBN: 978-93-83168-98-9).</p>
+      </div>
+      <div class="book-card">
+        <span class="badge-tag">Frontiers eBook · 2025</span>
+        <h3 style="margin-top:10px">Conservation Agriculture for Sustainable Food Production Systems</h3>
+        <p>Raj, R., Govindasamy, P., Bagavathiannan, M., Das, T.K., et al. (eds.) (2025). Frontiers Media SA, Lausanne.</p>
+      </div>
+      <div class="book-card">
+        <span class="badge-tag">89 Book Chapters</span>
+        <h3 style="margin-top:10px">Chapters in Springer, CRC Press, Taylor &amp; Francis, Wiley &amp; ICAR</h3>
+        <p>89 peer-reviewed book chapters spanning climate-smart agronomy, organic weed management, soil carbon &amp; herbicide stewardship.</p>
+      </div>
     </div>
-    <p style="margin-top:28px"><a class="btn btn-outline" href="research.html" style="border-color:var(--forest);color:var(--forest)">View research focus →</a></p>
   </div>
 </section>
 
-<section class="achievement-section" id="achievements-preview">
+<section id="achievements-preview">
   <div class="wrap">
     <div class="section-head">
-      <div class="eyebrow">Recognition · leadership</div>
-      <h2>Honours &amp; academic leadership</h2>
-      <p>National fellowships, awards and professional leadership in weed science and agronomy.</p>
+      <div class="eyebrow">Recognition · Leadership · Distinction</div>
+      <h2>Honours &amp; Academic Leadership</h2>
+      <p>National Academy fellowships, ICAR national awards, society presidencies, and international recognition.</p>
     </div>
     <div class="achievement-grid">
       <div class="achievement-card featured">
@@ -144,59 +192,82 @@
         <div class="achievement-year">2019</div>
       </div>
       <div class="achievement-card">
-        <div class="achievement-kicker">Global recognition</div>
+        <div class="achievement-kicker">Global Scientific Ranking</div>
         <h3>Top 2% Scientists of the World</h3>
-        <p>Recognition listed by Stanford University (USA) &amp; Elsevier data sheet</p>
+        <p>Recognized in Stanford University (USA) &amp; Elsevier Global Datasheet</p>
         <div class="achievement-year">2025</div>
       </div>
+      <div class="achievement-card">
+        <div class="achievement-kicker">ICAR National Teaching Award</div>
+        <h3>ICAR Bharat Ratna Dr. C. Subramaniam Award</h3>
+        <p>For outstanding contributions in PG teaching and research guidance</p>
+        <div class="achievement-year">2019</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-kicker">Society Presidency</div>
+        <h3>President, Indian Society of Weed Science (ISWS)</h3>
+        <p>Leading 1,360+ life members &amp; 300+ annual members nationwide</p>
+        <div class="achievement-year">2025–2027</div>
+      </div>
+      <div class="achievement-card">
+        <div class="achievement-kicker">Institutional &amp; University Honours</div>
+        <h3>IARI Hooker Award, Best Teacher &amp; Bidhan Krishi Ratna</h3>
+        <p>IARI Hooker Award (2015), IARI Best Teacher (2017) &amp; BCKV Bidhan Krishi Ratna (2025)</p>
+        <div class="achievement-year">2015 · 2017 · 2025</div>
+      </div>
     </div>
-    <p style="margin-top:24px"><a class="btn btn-primary" href="achievements.html">All achievements →</a></p>
+    <p style="margin-top:26px"><a class="btn btn-dark" href="achievements.html">View All Honours, Medals &amp; Editorial Roles →</a></p>
   </div>
 </section>
 
-<section class="pub-section" id="publications">
+<section class="research" id="publications">
   <div class="wrap">
     <div class="section-head pub-top">
       <div>
-        <div class="eyebrow">Selected scholarly work</div>
-        <h2>Recent publications</h2>
-        <p>Selected papers from the Google Scholar profile (auto-updated daily).</p>
+        <div class="eyebrow">Selected Scholarly Work</div>
+        <h2>Recent Google Scholar Highlights</h2>
+        <p>Live metrics &amp; papers synced from Google Scholar alongside the complete 576-publication CV archive.</p>
       </div>
-      <a class="btn btn-primary" href="publications.html">All publications →</a>
+      <div class="actions">
+        <a class="btn btn-dark" href="publications.html">Browse All 576+ Publications →</a>
+        <a class="btn btn-primary" href="top50.html">Top 50 NAAS Papers →</a>
+      </div>
     </div>
-    <div class="pub-list" id="latest-publications">
-      <div class="empty-pubs">Publication list is being loaded. Visit Google Scholar for the complete record.</div>
-    </div>
+    <div class="pub-list" id="latest-publications"></div>
   </div>
 </section>
 
-<section class="contact">
+<section>
   <div class="wrap">
     <div class="contact-box">
       <div>
-        <h2>Explore the research</h2>
-        <p>Visit the Google Scholar profile for publications, citations and research contributions. Top 50 curated articles are listed on a dedicated page.</p>
+        <h2>Complete Academic Portfolio &amp; Curated Records</h2>
+        <p>Explore 309 research articles, 22 review papers, 12 books/manuals, 89 book chapters, 134+ guided scholars, and the Top 50 high-NAAS journal articles.</p>
       </div>
-      <div class="actions" style="flex-direction:column;gap:10px">
-        <a class="btn btn-primary" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">Open Google Scholar ↗</a>
-        <a class="btn btn-outline" href="top50.html">View Top 50 Articles</a>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
+        <a class="btn btn-outline" href="books.html">Books &amp; Chapters</a>
+        <a class="btn btn-outline" href="top50.html">Top 50 Articles</a>
       </div>
     </div>
   </div>
 </section>
 
+
 <footer class="footer">
   <div class="wrap footer-inner">
-    <div><strong>Dr. T.K. Das</strong> · Division of Agronomy, ICAR-IARI, New Delhi</div>
+    <div><strong>Dr. Tapas Kumar Das</strong> · Professor &amp; Principal Scientist, Division of Agronomy, ICAR–IARI, New Delhi</div>
     <div>
       <a href="about.html">Profile</a> ·
+      <a href="books.html">Books &amp; Chapters</a> ·
       <a href="publications.html">Publications</a> ·
       <a href="top50.html">Top 50</a> ·
       <a href="contact.html">Contact</a>
     </div>
   </div>
-  <div class="wrap update-note" id="dataUpdated">Metrics shown from the last available local data snapshot.</div>
+  <div class="wrap update-note" id="dataUpdated">Google Scholar &amp; Complete Academic CV Archive · Updated 2026.</div>
 </footer>
+<script src="assets/biodata_archive.js"></script>
 <script src="assets/site.js"></script>
 </body>
 </html>
