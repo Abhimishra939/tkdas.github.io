@@ -14,7 +14,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install scraper
-        run: pip install scholarly
+        run: pip install scholarly "bibtexparser==1.4.0"
       - name: Fetch Google Scholar data
         run: python scripts/update_scholar.py
       - name: Commit refreshed data
