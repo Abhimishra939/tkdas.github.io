@@ -1,11 +1,813 @@
 {
   "profile_id": "wfz2In0AAAAJ",
   "profile_url": "https://scholar.google.com/citations?user=wfz2In0AAAAJ",
-  "name": "Dr. T.K. Das",
+  "name": "Dr. T. K. Das Principal Scientist &Professor FNASc FNAAS FISA FISWS FSPPS Gold Medal (ISA & ISWS)",
   "citations": 8860,
   "h_index": 47,
   "i10_index": 170,
-  "publication_count": "300+",
-  "publications": [],
-  "updated_at": "2026-11-23"
+  "publication_count": 100,
+  "publications": [
+    {
+      "title": "Long-term agroforestry enhances soil organic carbon pools and deep soil carbon sequestration in the Indian Himalayas",
+      "year": "2025",
+      "authors": "S Barman, R Bhattacharyya, C Singh, AC Rathore, V Singhal, DR Biswas, ...",
+      "venue": "Frontiers in Environmental Science 13, 1568564, 2025",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:i6LplTXqhpIC",
+      "citations": 26
+    },
+    {
+      "title": "Herbicides use in crop production: An analysis of cost-benefit, non-target toxicities and environmental risks",
+      "year": "2024",
+      "authors": "Das,T.K., Behera,B., Nath,C.P., Ghosh,S., Sen,S., Raj,R., Ghosh,Sonaka ...",
+      "venue": "Crop Protection 181, 106691, 2024",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:KKBjqD86ppkC",
+      "citations": 94
+    },
+    {
+      "title": "Modeling maize growth and nitrogen dynamics using CERES-Maize (DSSAT) under diverse nitrogen management options in a conservation agriculture-based maize-wheat system",
+      "year": "2024",
+      "authors": "K Kumar, CM Parihar, HS Nayak, DR Sena, S Godara, R Dhakar, K Patra, ...",
+      "venue": "Scientific Reports 14 (1), 11743, 2024",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:EcS_2O1c4Q0C",
+      "citations": 43
+    },
+    {
+      "title": "Nitrogen use efficiency—a key to enhance crop productivity under a changing climate",
+      "year": "2023",
+      "authors": "P Govindasamy, SK Muthusamy, M Bagavathiannan, J Mowrer, ...",
+      "venue": "Frontiers in Plant Science 14, 1121073, 2023",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:hXZnTIgIr50C",
+      "citations": 683
+    },
+    {
+      "title": "Mechanisms of allelopathic interactions for sustainable weed management",
+      "year": "2023",
+      "authors": "Choudhary, C.S., Behera, B., Raza, Md. B., Mrunalini, K., Bhoi, T.K., Lal, M ...",
+      "venue": "Rhizosphere 25, 100667, 2023",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:p-HGrieyzrAC",
+      "citations": 86
+    },
+    {
+      "title": "Application of X-ray computed tomography in soil and plant - a review",
+      "year": "2023",
+      "authors": "Maity, P.P.,Ghosh,Tridiv,Rabbi, Sheikh,Das,T.K.,Bhattacharyya,R.",
+      "venue": "Frontiers in Environmental Science 11, 1216630, 2023",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:kiex5tMzGo8C",
+      "citations": 59
+    },
+    {
+      "title": "Identification of a resource-efficient integrated crop management practice for the rice-wheat rotations in south Asian Indo-Gangetic Plains",
+      "year": "2023",
+      "authors": "N Biswakarma, V Pooniya, RR Zhiipao, D Kumar, YS Shivay, TK Das, ...",
+      "venue": "Agriculture, Ecosystems & Environment 357, 108675, 2023",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:ef2wPL15CskC",
+      "citations": 41
+    },
+    {
+      "title": "Effect of nano-urea and herbicides on yield and yield attributes of wheat (Triticum aestivum)",
+      "year": "2023",
+      "authors": "A Sarkar, T Singh, A Mondal, S Kumar, TK Das, R Kaur, R Raj, ...",
+      "venue": "Indian Journal of Agronomy 68 (1), 97-100, 2023",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:G887dSk7Sz8C",
+      "citations": 36
+    },
+    {
+      "title": "Soil physical environment and active carbon pool in rice-wheat system of South Asia: impact of long-term conservation agriculture practices",
+      "year": "2023",
+      "authors": "Raj, R., Das, T.K.*, Chakraborty, D., Bhattacharyya, R., Babu S ...",
+      "venue": "Environmental Technology & Innovation 29, 102966, 2023",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:i8eIfGGcn98C",
+      "citations": 34
+    },
+    {
+      "title": "Weed seedbank, above-ground weed community and crop yields under conventional and conservation agriculture practices in maize–wheat–mungbean rotation",
+      "year": "2023",
+      "authors": "Ghosh, Sonaka, Das, T.K.*, Nath, C.P., Bhatia A., Biswas D.R., Bandyopadhyay ...",
+      "venue": "Weed Research 63 (4), 270-281. DOI: 10.1111/wre.12589, 2023",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:it4f3qIuXWYC",
+      "citations": 30
+    },
+    {
+      "title": "Synthesis and performance evaluation of novel bentonite-supported nanoscale zero valent iron for remediation of arsenic contaminated water and soil",
+      "year": "2023",
+      "authors": "MB Raza, SP Datta, D Golui, M Barman, TK Das, RN Sahoo, D Upadhyay, ...",
+      "venue": "Molecules 28 (5), 2168, 2023",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:QYmifXMdJWgC",
+      "citations": 28
+    },
+    {
+      "title": "Indicators of soil quality and crop productivity assessment at a long‐term experiment site in the lower Indo‐Gangetic plains",
+      "year": "2023",
+      "authors": "PS Ghorai, S Biswas, TJ Purakayastha, N Ahmed, TK Das, R Prasanna, ...",
+      "venue": "Soil Use and Management 39 (1), 503-520, 2023",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:Weau3kkTRIMC",
+      "citations": 24
+    },
+    {
+      "title": "Energy budgeting and carbon footprint of contrasting tillage and residue management scenarios in rice-wheat cropping system",
+      "year": "2022",
+      "authors": "Sourav Ghosh, TK Das*, KS Rana, DR Biswas, DK Das, G Singh, R Bhattacharyya ...",
+      "venue": "Soil and Tillage Research 223, 105445, 2022",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:wgKq3sYidysC",
+      "citations": 67
+    },
+    {
+      "title": "Integrated management enhances crop physiology and final yield in maize intercropped with blackgram in semiarid South Asia",
+      "year": "2022",
+      "authors": "Varatharajan T, Dass A., Choudhary, A.K., S. Sudhishri, Pooniya, V., Das, T ...",
+      "venue": "Frontiers in Plant Science, https://doi.org/10.3389/fpls.2022.97556, 2022",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:rDsFeusoTZkC",
+      "citations": 48
+    },
+    {
+      "title": "Recycling of silicon-rich agro-wastes by their combined application with phosphate solubilizing microbe to solubilize the native soil phosphorus in a sub-tropical Alfisol",
+      "year": "2022",
+      "authors": "Khurshid Alam, DR Biswas, R Bhattacharyya, D Das, A Suman, TK Das, RK Paul ...",
+      "venue": "Journal of Environmental Management 318, 115559, 2022",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:8O4vDxvErlEC",
+      "citations": 24
+    },
+    {
+      "title": "Soil quality indices in a conservation agriculture based rice-mustard cropping system in North-western Indo-Gangetic Plains",
+      "year": "2021",
+      "authors": "Shrila Das, Ranjan Bhattacharyya, TK Das*, AR Sharma, BS Dwivedi, MC Meena ...",
+      "venue": "Soil and Tillage Research 208, 104914, 2021",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:6IBXqrN-DEwC",
+      "citations": 78
+    },
+    {
+      "title": "Conservation Agriculture impacts on productivity, resource-use efficiency and environmental sustainability: A holistic review",
+      "year": "2021",
+      "authors": "TK Das, Sourav Ghosh, A Das, S Sen, D Datta, Sonaka Ghosh, R Raj, B Behera ...",
+      "venue": "Indian Journal of Agronomy 66 (5), 111-127, 2021",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:aNch6Af-aFkC",
+      "citations": 38
+    },
+    {
+      "title": "Impacts of herbicides on weeds, water productivity and nutrient-use efficiency in dry direct-seeded rice",
+      "year": "2021",
+      "authors": "S Sen, R Kaur, TK Das*, Rishi Raj, YS Shivay",
+      "venue": "Paddy and Water Environment 19 (1), 227-238, 2021",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:Lo8V22OuN40C",
+      "citations": 32
+    },
+    {
+      "title": "Economic threshold concept for weed management in crops: Usefulness and limitation",
+      "year": "2021",
+      "authors": "TK Das, S Sen, R Raj, S Ghosh, B Behera, A Roy",
+      "venue": "Indian Journal of Weed Science 53 (1), 1-13, 2021",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:ON9TkA72AHEC",
+      "citations": 25
+    },
+    {
+      "title": "Conservation Agriculture in rice-mustard cropping system for five years: Impacts on crop productivity, profitability, water-use efficiency, and soil properties.",
+      "year": "2020",
+      "authors": "TK Das, CP Nath, S Das, S Biswas, R Bhattacharyya, S Sudhishri, R Raj, ...",
+      "venue": "Field Crops Research 250, 107781, 2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:RVqaWcrwK10C",
+      "citations": 125
+    },
+    {
+      "title": "Zero -tillage and residue retention impact on soil aggregation and carbon stabilization within aggregates in subtropical India",
+      "year": "2020",
+      "authors": "K Modak, DR Biswas, A Ghosh, P Pramanik, TK Das, S Das, S Kumar, P Krishnan ...",
+      "venue": "Soil and Tillage Research 202, 104649, 2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:1Aeql8wG3wEC",
+      "citations": 104
+    },
+    {
+      "title": "Impacts of conservation agriculture and herbicides on weeds, nematodes, herbicide residue and productivity in direct-seeded rice",
+      "year": "2020",
+      "authors": "JK Baghel, TK Das*, Pankaj, Irani Mukherjee, CP Nath, R Bhattacharyya ...",
+      "venue": "Soil and Tillage Research 201, 104634, 2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:dMpQl7XwOw4C",
+      "citations": 99
+    },
+    {
+      "title": "Microbial consortia for sustaining productivity of non-legume crops: prospects and challenges",
+      "year": "2020",
+      "authors": "B Behera, TK Das*, Rishi Raj, Sonaka Ghosh, Md Basit Raza, Suman Sen",
+      "venue": "Agricultural Research 10 (1), 1-14, 2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:CMPXdcK5v8EC",
+      "citations": 89
+    },
+    {
+      "title": "The weed Orobanche: species distribution, diversity, biology and management",
+      "year": "2020",
+      "authors": "TK Das, S Ghosh, K Gupta, S Sen, B Behera, R Raj",
+      "venue": "Journal of Research in Weed Science 3 (2), 162-180, 2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:IExZWSxeYXUC",
+      "citations": 44
+    },
+    {
+      "title": "Weed management in dry direct-seeded rice: Assessing the impacts on weeds and crop",
+      "year": "2020",
+      "authors": "S Sen, R Kaur,TK Das",
+      "venue": "Indian Journal of Weed Science 52 (2), 169–174, 2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:SgM-ki2adj0C",
+      "citations": 43
+    },
+    {
+      "title": "Impacts of sequential herbicides and residue mulching on weeds and productivity and profitability of vegetable pea in North-western Indo-Gangetic Plains",
+      "year": "2020",
+      "authors": "R Kaur, TK Das*, T Banerjee, R Raj, R Singh, S Sen",
+      "venue": "Scientia Horticulturae 270, 109456, 2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:mgoTDWlsYNUC",
+      "citations": 35
+    },
+    {
+      "title": "Modeling the temporal distribution of water, ammonium-N, and nitrate-N in the root zone of wheat using HYDRUS-2D under conservation agriculture",
+      "year": "2020",
+      "authors": "P Shafeeq, P Aggarwal, P Krishnan, V Rai, P Pramanik, TK Das",
+      "venue": "Environmental Science and Pollution Research 27 (2), 2217-2225, 2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:UarirCmVI0EC",
+      "citations": 35
+    },
+    {
+      "title": "Variation of porosity, pore size distribution and soil physical properties under conservation agriculture",
+      "year": "2020",
+      "authors": "Tridiv Ghosh, PP Maity, TK Das, P Krishnan, A Bhatia, P Bhattacharya, DK Sharma",
+      "venue": "Indian Journal of Agricultural Sciences 90 (11), 2051-2058, 2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:_n8fIOMweQoC",
+      "citations": 34
+    },
+    {
+      "title": "Long-term impacts of integrated nutrient management with equivalent nutrient doses to mineral fertilization on soil organic carbon sequestration in a sub-tropical Alfisol of India",
+      "year": "2020",
+      "authors": "A Trivedi, R Bhattacharyya, DR Biswas, S Das, TK Das, P Mahapatra, ...",
+      "venue": "Carbon Management 11 (5), 483-497, 2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:DPO9WFcz7UcC",
+      "citations": 31
+    },
+    {
+      "title": "Residue and potassium management strategies to improve crop productivity, potassium mobilization, and assimilation under zero-till maize–wheat cropping system",
+      "year": "2020",
+      "authors": "R Madar, YV Singh, MC Meena, TK Das, V Paramesh, Fahed A Al-Mana, Mohamed A ...",
+      "venue": "Agriculture, 10: 401; doi:10.3390/agriculture10090401, 2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:e9bUPLv0EjcC",
+      "citations": 31
+    },
+    {
+      "title": "Brown manuring optimization in maize: impacts on weeds, crop productivity and profitability",
+      "year": "2020",
+      "authors": "TK Das, S Ghosh, CP Nath",
+      "venue": "The Journal of Agricultural Science (Cambridge) 157 (7-8), 599-610., 2020",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:6pF0wJmtdfAC",
+      "citations": 28
+    },
+    {
+      "title": "Conservation agriculture had a strong impact on the sub-surface soil strength and root growth in wheat after a 7-year transition period",
+      "year": "2019",
+      "authors": "S Mondal, D Chakraborty, TK Das, M Shrivastava, AK Mishra, ...",
+      "venue": "Soil and Tillage Research 195, 104385, 2019",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:F9HO9s0W2bwC",
+      "citations": 95
+    },
+    {
+      "title": "Response of oxidative stability of aggregate-associated soil organic carbon and deep soil carbon sequestration to zero-tillage in subtropical India",
+      "year": "2019",
+      "authors": "K Modak, A Ghosh, R Bhattacharyya, DR Biswas, TK Das, S Das, G Singh",
+      "venue": "Soil and Tillage Research 195, 104370, 2019",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:ovGv7akYl-cC",
+      "citations": 82
+    },
+    {
+      "title": "Four years of conservation agriculture affects topsoil aggregate-associated 15nitrogen but not the 15nitrogen use efficiency by wheat in a semi-arid climate",
+      "year": "2019",
+      "authors": "R Bhattacharyya, TK Das*, S Das, A Dey, AK Patra, R Agnihotri, A Ghosh, AR ...",
+      "venue": "Geoderma 337, 333-340, 2019",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:WM2K3OHRCGMC",
+      "citations": 52
+    },
+    {
+      "title": "Potential of conservation agriculture for ecosystem services: A review",
+      "year": "2019",
+      "authors": "Sonaka Ghosh, TK Das*, DK Sharma, Kamlika Gupta",
+      "venue": "Indian Journal of Agricultural Sciences 89 (10), 1572-1579, 2019",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:mJbmKSuM8toC",
+      "citations": 44
+    },
+    {
+      "title": "Effect of conservation agriculture on soil hydro-physical properties, total and particulate organic carbon and root morphology in wheat (Triticum aestivum) under rice (Oryza …",
+      "year": "2019",
+      "authors": "S Mondal, TK Das, P Thomas, AK Mishra, KK Bandyopadhyay, ...",
+      "venue": "Indian Journal of Agricultural Sciences 89 (1), 46-55, 2019",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:-vzq6BoH5oUC",
+      "citations": 42
+    },
+    {
+      "title": "Modelling soil hydrothermal regimes in pigeon pea under conservation agriculture using Hydrus-2D",
+      "year": "2019",
+      "authors": "V Rai, P Pramanik, TK Das, P Aggarwal, R Bhattacharyya, P Krishnan, ...",
+      "venue": "Soil and Tillage Research 190, 92-108, 2019",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:oH8HCDhqVGsC",
+      "citations": 39
+    },
+    {
+      "title": "Crop rotation and residue management effects on soil enzyme activities, glomalin and aggregate stability under zero tillage in the Indo-Gangetic Plains",
+      "year": "2018",
+      "authors": "G Singh, R Bhattacharyya, TK Das, AR Sharma, A Ghosh, S Das, ...",
+      "venue": "Soil and Tillage Research 184, 291-300., 2018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:w7CBUyPWg-0C",
+      "citations": 225
+    },
+    {
+      "title": "Conservation agriculture effects on crop and water productivity, profitability and soil organic carbon accumulation under a maize-wheat cropping system in the North-western …",
+      "year": "2018",
+      "authors": "TK Das,YS Saharawat, R Bhattacharyya, S Sudhishri, KK Bandyopadhyay, AR ...",
+      "venue": "Field Crops Research 215, 222-231, 2018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:uWy0R8PweswC",
+      "citations": 199
+    },
+    {
+      "title": "Impacts of tillage and herbicide mixture on weed interference, agronomic productivity and profitability of a maize – wheat system in the North-western Indo-Gangetic Plains",
+      "year": "2018",
+      "authors": "VS Susha, TK Das*, CP Nath, R Pandey, S Paul, S Ghosh",
+      "venue": "Field Crops Research 219, 180-191, 2018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:MNNNGtAgD4EC",
+      "citations": 92
+    },
+    {
+      "title": "Water balance in direct-seeded rice under conservation agriculture in North-western Indo-Gangetic Plains of India",
+      "year": "2018",
+      "authors": "A Mohammad, S Sudhishri, TK Das, M Singh, R Bhattacharyya, A Dass, ...",
+      "venue": "Irrigation Science 36 (6), 381-393, 2018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:Ei5r6KrKXVQC",
+      "citations": 73
+    },
+    {
+      "title": "Aggregate-associated N and global warming potential of conservation agriculture-based cropping of maize-wheat system in the north-western Indo-Gangetic Plains",
+      "year": "2018",
+      "authors": "R Bhattacharyya, A Bhatia, TK Das*, Sneh Lata, A Kumar, Ritu Tomer, G. Singh ...",
+      "venue": "Soil and Tillage Research 182, 66-77, 2018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:vofGIMt6cyEC",
+      "citations": 61
+    },
+    {
+      "title": "Effect of weed control on weed competition, soil microbial activity and rice productivity in conservation agriculture-based direct-seeded rice (Oryza sativa)-wheat (Triticum …",
+      "year": "2018",
+      "authors": "JK Baghel, TK Das, DS Rana, S Paul",
+      "venue": "Indian Journal of Agronomy 63 (2), 129-136, 2018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:TiIbgCYny7sC",
+      "citations": 30
+    },
+    {
+      "title": "Using chemical seed dormancy breakers with herbicides for weed management in soyabean and wheat.",
+      "year": "2018",
+      "authors": "TK Das, DK Das",
+      "venue": "Weed Research 58, 188-199, 2018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:uAPFzskPt0AC",
+      "citations": 30
+    },
+    {
+      "title": "Bio-efficacy of sequentially applied herbicides on weed competition and crop performance in dry direct-seeded rice (Oryza sativa)",
+      "year": "2018",
+      "authors": "S Sen, R Kaur, TK Das, YS Shivay, PM Sahoo",
+      "venue": "Indian Journal of Agronomy 63 (2), 230-233, 2018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:bCjgOgSFrM0C",
+      "citations": 26
+    },
+    {
+      "title": "Herbicide ready-mixes effects on weed control efficacy, non-target and residual toxicities, productivity and profitability in sugarcane–green gram cropping system",
+      "year": "2018",
+      "authors": "Hirak Banerjee, TK Das*, Krishnendu Ray, Aritri Laha, Sukamal Sarkar ...",
+      "venue": "International Journal of Pest Management 64 (3), 221-229, 2018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:Ej9njvOgR2oC",
+      "citations": 26
+    },
+    {
+      "title": "Agronomic productivity, nitrogen fertilizer savings, and soil organic carbon in conservation agriculture: Efficient nitrogen and weed management in maize-wheat system",
+      "year": "2018",
+      "authors": "AI Oyeogbe, TK Das, KK Bandyopadhyay",
+      "venue": "Archives of Agronomy and Soil Science 64 (12), 1635-1645, 2018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:8gBurD7jEYQC",
+      "citations": 25
+    },
+    {
+      "title": "Effect of potassium and crop residue levels on potassium solubilizers and crop yield under maize-wheat rotation",
+      "year": "2018",
+      "authors": "R Madar, YV Singh, S Gaind, MC Meena, TK Das",
+      "venue": "International Journal of Current Microbiology and Applied Sci. 7 (6), 424-435, 2018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:yCjxvIMm6_oC",
+      "citations": 24
+    },
+    {
+      "title": "Invasive noxious weed management research in India with special reference to Cyperus rotundus, Eichhornia crassipes and Lantana camara",
+      "year": "2018",
+      "authors": "Rishi Raj, TK Das*, R Kaur, R Singh, K Shekhawat",
+      "venue": "Indian Journal of Agricultural Sciences 88 (2), 181-196, 2018",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:ukw-9cB-YDkC",
+      "citations": 24
+    },
+    {
+      "title": "Modelling soil water balance and root water uptake in cotton grown under different soil conservation practices in the Indo-Gangetic Plain",
+      "year": "2017",
+      "authors": "P Aggarwal, R Bhattacharyya, AK Mishra, TK Das, J Šimůnek, P Pramanik, ...",
+      "venue": "Agriculture, Ecosystems & Environment 240, 287-299, 2017",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:wSy_KLzO7YEC",
+      "citations": 87
+    },
+    {
+      "title": "Greenhouse gases emission, soil organic carbon and wheat yield as affected by tillage systems and nitrogen management practices",
+      "year": "2017",
+      "authors": "CP Nath, TK Das, KS Rana, R Bhattacharyya, H Pathak, S Paul, ...",
+      "venue": "Archives of Agronomy and Soil Science 63 (12), 1644-1660, 2017",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:AZju0d2GQJ0C",
+      "citations": 80
+    },
+    {
+      "title": "Weed and nitrogen management effects on weed infestation and crop productivity of wheat–mungbean sequence in conventional and conservation tillage practices",
+      "year": "2017",
+      "authors": "CP Nath, TK Das, KS Rana, R Bhattacharyya, H Pathak, S Paul, ...",
+      "venue": "Agricultural Research 6 (1), 33-46, 2017",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:naSTrk-c4S8C",
+      "citations": 66
+    },
+    {
+      "title": "Adaptive nitrogen and integrated weed management in conservation agriculture: impacts on agronomic productivity, greenhouse gas emissions, and herbicide residues",
+      "year": "2017",
+      "authors": "AI Oyeogbe, TK Das, A Bhatia, SB Singh",
+      "venue": "Environmental Monitoring and Assessment 189 (4), 198, 2017",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:2vr6o8x5NLkC",
+      "citations": 44
+    },
+    {
+      "title": "Release behavior and bioefficacy of imazethapyr formulations based on biopolymeric hydrogels",
+      "year": "2017",
+      "authors": "V Kumar, A Singh, TK Das, DJ Sarkar, SB Singh, R Dhaka, A Kumar",
+      "venue": "Journal of Environmental Science and Health, Part B 52 (6), 402-409, 2017",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:Vno172sVVMwC",
+      "citations": 33
+    },
+    {
+      "title": "Weed menace and management strategies for enhancing oilseed brassicas production in the Indian sub-continent: a review",
+      "year": "2017",
+      "authors": "K Shekhawat, SS Rathore, A Dass, TK Das, G Mahajan, BS Chauhan",
+      "venue": "Crop protection 96, 245-257, 2017",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:Og1tA8FjbJAC",
+      "citations": 28
+    },
+    {
+      "title": "Nitrogen effects on productivity and soil properties in conventional and zero tilled wheat with different residue management",
+      "year": "2017",
+      "authors": "CP Nath, TK Das, R Bhattacharyya, H Pathak, S Paul, D Chakraborty, ...",
+      "venue": "Proceedings National Academy of Sciences,India,B:Biological Sci., 1-13, 2017",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:8VtEwCQfWZkC",
+      "citations": 24
+    },
+    {
+      "title": "Mitigation of greenhouse gas emission from rice–wheat system of the Indo-Gangetic plains: Through tillage, irrigation and fertilizer management",
+      "year": "2016",
+      "authors": "DK Gupta, A Bhatia, A Kumar, TK Das, N Jain, R Tomer, SK Malyan, ...",
+      "venue": "Agriculture Ecosystems & Environment 230, 1-9, 2016",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:RtRctb2lSbAC",
+      "citations": 251
+    },
+    {
+      "title": "Conservation agriculture",
+      "year": "2016",
+      "authors": "TK Das, AR Sharma, DS Rana, T Paul",
+      "venue": "Modern Concepts of Agronomy. DS Rana, PK Ghosh, YS Shivay, G Singh (eds), 62-86, 2016",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:JdL-Xu2nR38C",
+      "citations": 204
+    },
+    {
+      "title": "Energy auditing of a maize–wheat–greengram cropping system under conventional and conservation agriculture in irrigated north-western Indo-Gangetic Plains",
+      "year": "2016",
+      "authors": "AA Saad, TK Das, DS Rana, AR Sharma, R Bhattacharyya, K Lal",
+      "venue": "Energy 116, 293-305, 2016",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:nPT8s1NX_-sC",
+      "citations": 144
+    },
+    {
+      "title": "Conservation agriculture in a rice-wheat cropping system on an alluvial soil of north-western Indo-Gangetic plains: effect on soil carbon and nitrogen pools",
+      "year": "2016",
+      "authors": "A Dey, BS Dwivedi, R Bhattacharyya, SP Datta, MC Meena, TK Das, ...",
+      "venue": "Journal of the Indian Society of Soil science 64 (3), 246-254, 2016",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:BOlwja0KXvYC",
+      "citations": 75
+    },
+    {
+      "title": "Effects of conservation agriculture on crop productivity and water-use efficiency under an irrigated pigeonpea–wheat cropping system in the western Indo-Gangetic Plains",
+      "year": "2016",
+      "authors": "TK Das, KK Bandyopadhyay, R Bhattacharyya, S Sudhishri, AR Sharma, ...",
+      "venue": "The Journal of Agricultural Science (Cambridge) 154 (8), 1327-1342, 2016",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:-6RzNnnwWf8C",
+      "citations": 72
+    },
+    {
+      "title": "Weed management in conservation agriculture systems",
+      "year": "2016",
+      "authors": "AR Sharma, TK Das, UK Behera",
+      "venue": "Weed Science and Management., 247-269, 2016",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:VnuxuLaQPLMC",
+      "citations": 50
+    },
+    {
+      "title": "Effects of herbicides and tillage practices on weeds and summer mungbean (Vigna radiata) in wheat (Triticum aestivum)-mungbean cropping sequence",
+      "year": "2016",
+      "authors": "CP Nath, TK Das, KS Rana",
+      "venue": "Indian Journal of Agricultural Sciences 86 (7), 860-864, 2016",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:BmWJbWwHJAwC",
+      "citations": 32
+    },
+    {
+      "title": "Economic analysis of different greenhouse gas mitigation technologies in rice–wheat cropping system of the Indo-Gangetic plains",
+      "year": "2016",
+      "authors": "DK Gupta, A Bhatia, TK Das, P Singh, A Kumar, N Jain, H Pathak",
+      "venue": "Current Science, 867-874, 2016",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:G1UMdFYMoxkC",
+      "citations": 32
+    },
+    {
+      "title": "Nanoformulations of pretilachlor herbicide: preparation, characterization and activity",
+      "year": "2016",
+      "authors": "N Kumar, R Kumar, NA Shakil, TK Das",
+      "venue": "Journal of Scientific and Industrial Research 75, 676-680, 2016",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:nqdriD65xNoC",
+      "citations": 27
+    },
+    {
+      "title": "Conservation agriculture effects on soil organic carbon accumulation and crop productivity under a rice–wheat cropping system in the western Indo-Gangetic Plains",
+      "year": "2015",
+      "authors": "R Bhattacharyya, TK Das, S Sudhishri, B Dudwal, AR Sharma, A Bhatia, ...",
+      "venue": "European Journal of Agronomy 70, 11-21, 2015",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:SGW5VrABaM0C",
+      "citations": 226
+    },
+    {
+      "title": "Least limiting water range for two conservation agriculture cropping systems in India",
+      "year": "2015",
+      "authors": "AK Mishra, P Aggarwal, R Bhattacharyya, TK Das, AR Sharma, R Singh",
+      "venue": "Soil and Tillage Research 150, 43-56, 2015",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:kWvqk_afx_IC",
+      "citations": 59
+    },
+    {
+      "title": "Weed management in pigeonpea-based cropping systems",
+      "year": "2015",
+      "authors": "R Kaur, R Raj, TK Das, K Shekhawat, R Singh, AK Choudhary",
+      "venue": "Indian Journal of Weed Science 47 (3), 267-276, 2015",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:CLhUwle04lcC",
+      "citations": 36
+    },
+    {
+      "title": "Productivity, resource-use efficiency and economics of maize (Zea mays)-wheat (Triticum aestivum)-greengram (Vigna radiata) cropping system under conservation agriculture in …",
+      "year": "2015",
+      "authors": "AA Saad, TK Das, DS Rana, AR Sharma",
+      "venue": "Indian Journal of Agronomy 60 (4), 502-510, 2015",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:CNPyR2KL9-0C",
+      "citations": 27
+    },
+    {
+      "title": "Weed-management and wheat productivity in a conservation agriculture-based maize (Zea mays)–wheat (Triticum aestivum)–mungbean (Vigna radiata) system in north-western Indo …",
+      "year": "2015",
+      "authors": "CP Nath, TK Das, KS Rana, H Pathak, R Bhattacharyya, S Paul, SB Singh, ...",
+      "venue": "Indian Journal of Agronomy 60 (4), 554-563, 2015",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:4aZ_i-5WJEQC",
+      "citations": 26
+    },
+    {
+      "title": "Conservation agriculture in an irrigated cotton–wheat system of the western Indo-Gangetic Plains: Crop and water productivity and economic profitability",
+      "year": "2014",
+      "authors": "TK Das, R Bhattacharyya, S Sudhishri, AR Sharma, YS Saharawat, ...",
+      "venue": "Field Crops Research 158, 24-33, 2014",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:nRpfm8aw39MC",
+      "citations": 222
+    },
+    {
+      "title": "Littleseed canarygrass (Phalaris minor) resistance to clodinafop‐propargyl in wheat fields in north‐western India: Appraisal and management",
+      "year": "2014",
+      "authors": "TK Das, IPS Ahlawat, NT Yaduraju",
+      "venue": "Weed Biology and Management 14 (1), 11-20, 2014",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:kw52XkFRtyQC",
+      "citations": 45
+    },
+    {
+      "title": "Effect of tillage and residue management on productivity of soybean and physico-chemical properties of soil in soybean-wheat cropping system",
+      "year": "2014",
+      "authors": "A Monsefi, AR Sharma, N Rang Zan, UK Behera, TK Das",
+      "venue": "International Journal of Plant Production 8 (3), 429-439, 2014",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:jL-93Qbq4QoC",
+      "citations": 38
+    },
+    {
+      "title": "Nitrogen and phosphorus effects on winter maize in an irrigated agroecosystem in western Indo-Gangetic plains of India.",
+      "year": "2014",
+      "authors": "Epimaque Nsanzabaganwa, TK Das*, DS Rana, S Naresh Kumar",
+      "venue": "Maydica 59 (2), 152-160, 2014",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:LPtt_HFRSbwC",
+      "citations": 28
+    },
+    {
+      "title": "Bioefficacy evaluation of different herbicides on weed population, grain yield and nutrient uptake in direct seeded puddled rice (Oryza sativa L.)",
+      "year": "2014",
+      "authors": "CP Nath, M Saha, PC Pandey, TK Das, RK Meena, T Paul",
+      "venue": "Annals of Agricultural Research 35 (2), 217-223, 2014",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:RoXSNcbkSzsC",
+      "citations": 27
+    },
+    {
+      "title": "Impacts of conservation agriculture on total soil organic carbon retention potential under an irrigated agro-ecosystem of the western Indo-Gangetic Plains",
+      "year": "2013",
+      "authors": "TK Das, R Bhattacharyya, AR Sharma, S Das, AA Saad, H Pathak",
+      "venue": "European Journal of Agronomy 51, 34-42, 2013",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:6yz0xqPARnAC",
+      "citations": 199
+    },
+    {
+      "title": "Impacts of conservation agriculture on soil aggregation and aggregate-associated N under an irrigated agroecosystem of the Indo-Gangetic Plains",
+      "year": "2013",
+      "authors": "R Bhattacharyya, TK Das, P Pramanik, V Ganeshan, AA Saad, ...",
+      "venue": "Nutrient Cycling in Agroecosystems 96 (2-3), 185-202, 2013",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:wMgC3FpKEyYC",
+      "citations": 115
+    },
+    {
+      "title": "Large genetic variability in chickpea for tolerance to herbicides imazethapyr and metribuzin",
+      "year": "2013",
+      "authors": "PM Gaur, AK Jukanti, S Samineni, SK Chaturvedi, S Singh, S Tripathi, ...",
+      "venue": "Agronomy (Basel) 3 (3), 524-536, 2013",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:Ade32sEp0pkC",
+      "citations": 77
+    },
+    {
+      "title": "Effect of tillage and tank-mix herbicide application on weed management in soybean (Glycine max)",
+      "year": "2013",
+      "authors": "M Younesabadi, TK Das, AR Sharma",
+      "venue": "Indian Journal of Agronomy 58 (3), 372-378, 2013",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:uDGL6kOW6j0C",
+      "citations": 54
+    },
+    {
+      "title": "Methane and nitrous oxide emissions from soils under direct seeded rice",
+      "year": "2013",
+      "authors": "A Bhatia, A Kumar, TK Das, J Singh, N Jain, H Pathak",
+      "venue": "International Journal of Agric. and Statistical Sciences 9 (2), 729-736, 2013",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:6bLC7aUMtPcC",
+      "citations": 47
+    },
+    {
+      "title": "Persistence of herbicide fenoxaprop ethyl and its acid metabolite in soil and wheat crop under Indian tropical conditions",
+      "year": "2013",
+      "authors": "SB Singh, TK Das, G Kulshrestha",
+      "venue": "Journal of Environmental Science and Health, Part B 48 (5), 324-330, 2013",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:LdasjJ6CEcoC",
+      "citations": 35
+    },
+    {
+      "title": "Density and nitrogen effects on interference and economic threshold of common lambsquarters in wheat",
+      "year": "2013",
+      "authors": "BM Dodamani, TK Das*",
+      "venue": "Journal of Pest Science 86 (3), 611-619, 2013",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:7Hz3ACDFbsoC",
+      "citations": 29
+    },
+    {
+      "title": "An integrated approach for management of Cyperus rotundus (purple nutsedge) in soybean–wheat cropping system",
+      "year": "2012",
+      "authors": "Mukesh Kumar, TK Das*, NT Yaduraju",
+      "venue": "Crop Protection 33, 74-81, 2012",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:zCSUwVk65WsC",
+      "citations": 59
+    },
+    {
+      "title": "Weed management research in India: an overview",
+      "year": "2012",
+      "authors": "TK Das, MD Tuti, R Sharma, T Paul, PR Mirjha",
+      "venue": "Indian Journal of Agronomy 57 (3), 148-156, 2012",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:OBSaB-F7qqsC",
+      "citations": 57
+    },
+    {
+      "title": "The effects of combining modified sowing methods with herbicide mixtures on weed interference in wheat crops",
+      "year": "2012",
+      "authors": "TK Das, NT Yaduraju",
+      "venue": "International Journal of Pest Management 58 (4), 310-319, 2012",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:BzfGm06jWhQC",
+      "citations": 54
+    },
+    {
+      "title": "Effects of missing-row sowing supplemented with row spacing and nitrogen on weed competition and growth and yield of wheat",
+      "year": "2011",
+      "authors": "TK Das, NT Yaduraju",
+      "venue": "Crop and Pasture Science 62 (1), 48-57, 2011",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:CaZNVDsoPx4C",
+      "citations": 75
+    },
+    {
+      "title": "Sequential application of metribuzin on weed control, growth and yield of soybean (Glycine max)",
+      "year": "2011",
+      "authors": "MD Tuti, TK Das",
+      "venue": "Indian Journal of Agronomy 56 (1), 57-61, 2011",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:otzGkya1bYkC",
+      "citations": 52
+    },
+    {
+      "title": "Interference and economic threshold of horse purslane (Trianthema portulacastrum) in soybean cultivation in northern India",
+      "year": "2011",
+      "authors": "Dipak Hazra, TK Das*, NT Yaduraju",
+      "venue": "Weed biology and management 11 (2), 72-82, 2011",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:1_W9tMSvGuwC",
+      "citations": 50
+    },
+    {
+      "title": "Weed management in soybean [Glycine max (L.) Merrill]",
+      "year": "2011",
+      "authors": "AK Vyas, TK Das",
+      "venue": "Advances in Weed Management, 180-185, 2011",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:CMvovTBb2okC",
+      "citations": 27
+    },
+    {
+      "title": "Herbicide efficacy and non-target toxicity in highland rainfed maize of Eastern Ethiopia",
+      "year": "2010",
+      "authors": "TK Das, PK Sakhuja, H Zelleke",
+      "venue": "International Journal of Pest Management 56 (4), 315-325, 2010",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:4X0JR2_MtJMC",
+      "citations": 55
+    },
+    {
+      "title": "Effects of some integrated management options on parthenium interference in sorghum",
+      "year": "2010",
+      "authors": "Besufekad Tadesse, TK Das*, NT Yaduraju",
+      "venue": "Weed Biology and Management 10 (3), 160-169, 2010",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:lgwcVrK6X84C",
+      "citations": 29
+    },
+    {
+      "title": "Weed Science: Basics and Applications",
+      "year": "2008",
+      "authors": "TK Das",
+      "venue": "Jain Brothers Publishers, New Delhi. 901p, 2008",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:e84hm74t-eoC",
+      "citations": 375
+    },
+    {
+      "title": "Integrated weed management for system productivity and economics in soybean (Glycine max)-wheat (Triticum aestivum) system",
+      "year": "2008",
+      "authors": "M Kumar, TK Das",
+      "venue": "Indian Journal of Agronomy 53 (3), 189-194, 2008",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:WC9gN4BGCRcC",
+      "citations": 56
+    },
+    {
+      "title": "Effect of soil solarization and crop husbandry practices on weed species competition and dynamics in soybean-wheat cropping system",
+      "year": "2008",
+      "authors": "TK Das, NT Yaduraju",
+      "venue": "Indian Journal of Weed Science 40 (1&2), 1-5, 2008",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:ubry08Y2EpUC",
+      "citations": 47
+    },
+    {
+      "title": "Towards better appraisal of herbicide bio-efficacy",
+      "year": "2001",
+      "authors": "TK Das",
+      "venue": "Indian Journal of Agricultural Sciences 71 (10), 676-678, 2001",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:jE2MZjpN3IcC",
+      "citations": 27
+    },
+    {
+      "title": "Effect of weed competition on growth, nutrient uptake and yield of wheat as affected by irrigation and fertilizers",
+      "year": "1999",
+      "authors": "TK Das, NT Yaduraju",
+      "venue": "The Journal of Agricultural Science (Cambridge) 133 (1), 45-51, 1999",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:MDQ-9Oe3GGUC",
+      "citations": 98
+    },
+    {
+      "title": "Is transformation of weed data always necessary?",
+      "year": "1999",
+      "authors": "TK Das",
+      "venue": "Annals of Agricultural Research 20 (3), 335-341, 1999",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:MAUkC_7iAq8C",
+      "citations": 46
+    },
+    {
+      "title": "The effect of kind of micronutrients and their method of application on mungbean (Vigna radiata (L.) Wilczek) under zaid condition",
+      "year": "1998",
+      "authors": "SK Singh, HK Saxena, TK Das",
+      "venue": "Annals of Agricultural Research 19 (4), 454-457, 1998",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:7Frjd3zlGBUC",
+      "citations": 29
+    },
+    {
+      "title": "Corm and cormel production in gladiolus as affected by spike removal and K application",
+      "year": "1998",
+      "authors": "TK Das",
+      "venue": "Indian Journal of Horticulture 55 (4), 327-331, 1998",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:rHJHxKgnXwkC",
+      "citations": 25
+    },
+    {
+      "title": "Crop-weed competition studies in some kharif crops. Part II. Nutrient uptake and yield reduction",
+      "year": "1995",
+      "authors": "TK Das, NT Yaduraju",
+      "venue": "Annals of Plant Protection Sciences 3 (2), 95-99, 1995",
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:qhW0HyKmSusC",
+      "citations": 25
+    }
+  ],
+  "updated_at": "2026-11-23T11:45:17+00:00",
+  "source": "SerpApi Google Scholar Author API"
 }
