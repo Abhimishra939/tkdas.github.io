@@ -3,570 +3,64 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr. T.K. Das | ICAR-IARI</title>
-
+<meta name="theme-color" content="#132b20">
+<meta name="description" content="Academic profile of Dr. T.K. Das, Principal Scientist, Division of Agronomy, ICAR-IARI, New Delhi. Research in weed science, conservation agriculture and precision agronomy.">
+<title>Dr. T.K. Das | Agronomy & Weed Science</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  :root{
-    --paper:#F1EDE1;
-    --paper-alt:#E7E1CE;
-    --charcoal:#15150F;
-    --charcoal-soft:#23221A;
-    --ink:#1E2A1C;
-    --ink-soft:#57604F;
-    --gold:#C0923A;
-    --gold-soft:#E3C685;
-    --sage:#576B4C;
-    --line: rgba(21,21,15,0.14);
-    --line-dark: rgba(241,237,225,0.16);
-    --radius: 4px;
-  }
-
-  *{ margin:0; padding:0; box-sizing:border-box; }
-
-  html{ scroll-behavior:smooth; }
-
-  body{
-    font-family:'Inter', sans-serif;
-    background:var(--paper);
-    color:var(--ink);
-    line-height:1.65;
-    -webkit-font-smoothing:antialiased;
-  }
-
-  .furrow{
-    height:10px;
-    background:repeating-linear-gradient(
-      90deg,
-      var(--gold) 0px, var(--gold) 26px,
-      transparent 26px, transparent 40px
-    );
-    opacity:0.55;
-  }
-
-  /* ---------- NAV (persistent) ---------- */
-  nav{
-    background:var(--charcoal);
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:0 6%;
-    position:sticky;
-    top:0;
-    z-index:1000;
-    height:74px;
-    border-bottom:1px solid var(--line-dark);
-  }
-
-  .logo{
-    color:var(--paper);
-    font-family:'Fraunces', serif;
-    font-size:21px;
-    font-weight:600;
-    letter-spacing:0.01em;
-  }
-  .logo span{ color:var(--gold-soft); }
-
-  .nav-links{
-    display:flex;
-    list-style:none;
-    gap:8px;
-    align-items:center;
-  }
-
-  .nav-links li a{
-    color:rgba(241,237,225,0.78);
-    text-decoration:none;
-    font-weight:500;
-    font-size:14px;
-    letter-spacing:0.03em;
-    text-transform:uppercase;
-    padding:8px 14px;
-    border-radius:2px;
-    position:relative;
-    transition:color 0.25s ease;
-  }
-
-  .nav-links li a::after{
-    content:'';
-    position:absolute;
-    left:14px; right:14px; bottom:4px;
-    height:2px;
-    background:var(--gold);
-    transform:scaleX(0);
-    transform-origin:center;
-    transition:transform 0.25s ease;
-  }
-
-  .nav-links li a:hover,
-  .nav-links li a.active{
-    color:var(--paper);
-  }
-  .nav-links li a:hover::after,
-  .nav-links li a.active::after{
-    transform:scaleX(1);
-  }
-
-  .nav-toggle{
-    display:none;
-    flex-direction:column;
-    gap:5px;
-    background:none;
-    border:none;
-    cursor:pointer;
-    padding:8px;
-  }
-  .nav-toggle span{
-    width:24px; height:2px; background:var(--paper);
-  }
-
-  /* ---------- HERO ---------- */
-  header.hero-section{
-    position:relative;
-    background:var(--charcoal);
-    color:var(--paper);
-    padding:110px 6% 90px;
-    overflow:hidden;
-  }
-
-  header.hero-section::before{
-    content:'';
-    position:absolute;
-    inset:0;
-    background-image:
-      repeating-linear-gradient(180deg, rgba(241,237,225,0.045) 0px, rgba(241,237,225,0.045) 1px, transparent 1px, transparent 64px);
-    pointer-events:none;
-  }
-
-  .hero-grid{
-    position:relative;
-    max-width:1180px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:auto 1fr;
-    gap:56px;
-    align-items:center;
-  }
-
-  .hero-photo{
-    width:190px;
-    height:190px;
-    border-radius:50%;
-    object-fit:cover;
-    border:3px solid var(--gold);
-    box-shadow:0 0 0 10px rgba(192,146,58,0.08);
-  }
-
-  .eyebrow{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:12.5px;
-    letter-spacing:0.16em;
-    text-transform:uppercase;
-    color:var(--gold-soft);
-    margin-bottom:16px;
-    display:block;
-  }
-
-  .hero-grid h1{
-    font-family:'Fraunces', serif;
-    font-weight:600;
-    font-size:clamp(38px, 5vw, 60px);
-    line-height:1.05;
-    margin-bottom:16px;
-  }
-
-  .hero-grid .role{
-    font-size:18px;
-    color:rgba(241,237,225,0.75);
-    margin-bottom:28px;
-  }
-  .hero-grid .role strong{ color:var(--paper); font-weight:500; }
-
-  .btn{
-    display:inline-flex;
-    align-items:center;
-    gap:8px;
-    padding:13px 26px;
-    background:transparent;
-    color:var(--paper);
-    text-decoration:none;
-    border:1.5px solid var(--gold);
-    border-radius:2px;
-    font-weight:500;
-    font-size:14px;
-    letter-spacing:0.02em;
-    transition:all 0.25s ease;
-  }
-
-  .btn:hover{
-    background:var(--gold);
-    color:var(--charcoal);
-    transform:translateY(-2px);
-  }
-
-  /* ---------- SECTIONS ---------- */
-  .container{
-    width:90%;
-    max-width:1180px;
-    margin:auto;
-    padding:90px 0;
-  }
-
-  .section-head{
-    margin-bottom:50px;
-  }
-
-  .section-head .eyebrow{ color:var(--sage); }
-
-  .section-head h2{
-    font-family:'Fraunces', serif;
-    font-size:36px;
-    font-weight:600;
-    color:var(--ink);
-  }
-
-  /* Impact stat cards */
-  .stats{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:1px;
-    background:var(--line);
-    border:1px solid var(--line);
-  }
-
-  .stat-card{
-    background:var(--paper);
-    padding:38px 30px;
-    text-align:left;
-    opacity:0;
-    transform:translateY(16px);
-    transition:opacity 0.6s ease, transform 0.6s ease;
-  }
-  .stat-card.in-view{ opacity:1; transform:translateY(0); }
-
-  .stat-card .num{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:44px;
-    font-weight:600;
-    color:var(--charcoal);
-    display:block;
-    margin-bottom:8px;
-  }
-  .stat-card .num span{ color:var(--gold); }
-
-  .stat-card p{
-    font-size:14px;
-    letter-spacing:0.04em;
-    text-transform:uppercase;
-    color:var(--ink-soft);
-    font-weight:500;
-  }
-
-  /* About */
-  .about-grid{
-    display:grid;
-    grid-template-columns:1.3fr 1fr;
-    gap:60px;
-    align-items:start;
-  }
-
-  .about-grid p{
-    font-size:17px;
-    color:var(--ink-soft);
-    margin-bottom:20px;
-  }
-  .about-grid p strong{ color:var(--ink); font-weight:600; }
-
-  .focus-list{
-    background:var(--paper-alt);
-    border-left:3px solid var(--gold);
-    padding:32px;
-  }
-  .focus-list h3{
-    font-family:'Fraunces', serif;
-    font-size:19px;
-    margin-bottom:18px;
-    color:var(--ink);
-  }
-  .focus-list ul{ list-style:none; }
-  .focus-list li{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:13.5px;
-    color:var(--ink-soft);
-    padding:10px 0;
-    border-bottom:1px solid var(--line);
-    display:flex;
-    align-items:baseline;
-    gap:10px;
-  }
-  .focus-list li:last-child{ border-bottom:none; }
-  .focus-list li::before{
-    content:'—';
-    color:var(--gold);
-  }
-
-  /* Publications: index card style */
-  .pub-list{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:22px;
-  }
-
-  .pub{
-    background:var(--paper-alt);
-    padding:28px 26px;
-    border:1px solid var(--line);
-    border-top:3px solid var(--sage);
-    transition:transform 0.25s ease, border-color 0.25s ease;
-  }
-  .pub:hover{
-    transform:translateY(-4px);
-    border-top-color:var(--gold);
-  }
-  .pub .tag{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:11px;
-    letter-spacing:0.1em;
-    text-transform:uppercase;
-    color:var(--gold);
-    margin-bottom:10px;
-    display:block;
-  }
-  .pub h3{
-    font-family:'Fraunces', serif;
-    font-weight:600;
-    font-size:19px;
-    color:var(--ink);
-    margin-bottom:12px;
-  }
-  .pub p{
-    font-size:14.5px;
-    color:var(--ink-soft);
-  }
-
-  /* Contact / footer */
-  .contact-band{
-    background:var(--charcoal);
-    color:var(--paper);
-    text-align:center;
-    padding:80px 6%;
-  }
-  .contact-band h2{
-    font-family:'Fraunces', serif;
-    font-size:32px;
-    margin-bottom:16px;
-  }
-  .contact-band p{
-    color:rgba(241,237,225,0.7);
-    margin-bottom:30px;
-    font-size:16px;
-  }
-
-  footer{
-    background:var(--charcoal);
-    color:rgba(241,237,225,0.55);
-    text-align:center;
-    padding:22px;
-    font-size:13px;
-    border-top:1px solid var(--line-dark);
-  }
-  footer a{ color:var(--gold-soft); text-decoration:none; }
-
-  @media (prefers-reduced-motion: reduce){
-    html{ scroll-behavior:auto; }
-    .stat-card{ transition:none; opacity:1; transform:none; }
-  }
-
-  @media(max-width:860px){
-    .hero-grid{ grid-template-columns:1fr; text-align:center; justify-items:center; }
-    .about-grid{ grid-template-columns:1fr; }
-  }
-
-  @media(max-width:768px){
-    .nav-links{
-      position:absolute;
-      top:74px; left:0; right:0;
-      background:var(--charcoal);
-      flex-direction:column;
-      align-items:flex-start;
-      padding:10px 6% 20px;
-      display:none;
-      border-bottom:1px solid var(--line-dark);
-    }
-    .nav-links.open{ display:flex; }
-    .nav-toggle{ display:flex; }
-    header.hero-section{ padding:70px 6% 60px; }
-    .hero-grid{ gap:30px; }
-    .container{ padding:64px 0; }
-  }
+:root{--forest:#142b21;--forest2:#1d3b2c;--leaf:#78966b;--lime:#c7d8a4;--gold:#d5ad62;--cream:#f5f4ec;--paper:#fffefa;--ink:#203127;--muted:#66766a;--line:#e4e8dd;--shadow:0 24px 70px rgba(20,43,33,.12}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth;scroll-padding-top:90px}body{font-family:'DM Sans',sans-serif;color:var(--ink);background:var(--paper);line-height:1.65}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,91%);margin:auto}
+.nav{position:sticky;top:0;z-index:50;background:rgba(20,43,33,.96);backdrop-filter:blur(14px);color:#f7f8f1;border-bottom:1px solid rgba(255,255,255,.08)}.nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px;font-weight:700;letter-spacing:.02em}.brand-mark{width:38px;height:38px;border:1px solid var(--gold);border-radius:12px;display:grid;place-items:center;color:var(--lime);font-family:'Playfair Display',serif;font-size:19px}.brand small{display:block;font-size:10px;letter-spacing:.16em;color:#b9c9b7;font-weight:500;margin-top:1px}.nav-links{display:flex;align-items:center;gap:28px;list-style:none;font-size:13px;color:#dce6dc}.nav-links a:hover{color:var(--lime)}.nav-cta{border:1px solid rgba(213,173,98,.6);border-radius:999px;padding:10px 17px;color:#f4e5bd!important}.menu-btn{display:none;border:0;background:none;color:white;font-size:25px}
+.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 85% 12%,rgba(120,150,107,.23),transparent 34%),linear-gradient(120deg,var(--forest),#10231b);color:white;padding:82px 0 88px}.hero:after{content:"";position:absolute;right:-140px;bottom:-300px;width:650px;height:650px;border:1px solid rgba(199,216,164,.12);border-radius:50%;box-shadow:0 0 0 55px rgba(199,216,164,.035),0 0 0 110px rgba(199,216,164,.025);pointer-events:none}.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:290px 1fr;gap:65px;align-items:center}.portrait-wrap{position:relative;width:250px;margin:auto}.portrait-wrap:before{content:"";position:absolute;inset:-14px;border:1px solid rgba(213,173,98,.38);border-radius:28px;transform:rotate(-5deg)}.portrait{display:block;width:250px;height:290px;object-fit:cover;object-position:top;border-radius:22px;border:5px solid rgba(255,255,255,.09);box-shadow:0 20px 55px rgba(0,0,0,.3)}.portrait-caption{position:absolute;bottom:14px;left:14px;right:14px;border-radius:12px;background:rgba(17,35,26,.86);padding:9px 12px;font-size:11px;letter-spacing:.08em;color:#e7eedf;text-transform:uppercase;backdrop-filter:blur(8px)}.eyebrow{font-family:'Space Mono',monospace;text-transform:uppercase;letter-spacing:.17em;font-size:11px;color:var(--gold);display:flex;align-items:center;gap:10px}.eyebrow:before{content:"";height:1px;width:28px;background:var(--gold)}h1,h2,h3{font-family:'Playfair Display',serif;font-weight:600}h1{font-size:clamp(42px,6vw,76px);line-height:1.07;letter-spacing:-.035em;margin:18px 0 15px}.hero-sub{font-size:18px;color:#d1ddd0;max-width:730px}.hero-sub strong{color:#fff;font-weight:600}.hero-tags{display:flex;flex-wrap:wrap;gap:9px;margin:25px 0 30px}.hero-tags span{font-size:12px;padding:7px 12px;border:1px solid rgba(255,255,255,.15);border-radius:999px;color:#d8e3d5;background:rgba(255,255,255,.04)}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;gap:9px;padding:13px 19px;border-radius:999px;font-weight:600;font-size:13px;transition:.2s}.btn-primary{background:var(--lime);color:var(--forest)}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(199,216,164,.2)}.btn-outline{border:1px solid rgba(255,255,255,.25);color:#f5f8f2}.btn-outline:hover{border-color:var(--gold);color:var(--gold)}
+.metrics{margin-top:-32px;position:relative;z-index:2}.metric-grid{display:grid;grid-template-columns:repeat(4,1fr);background:white;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);overflow:hidden}.metric{padding:27px 30px;border-right:1px solid var(--line)}.metric:last-child{border-right:0}.metric-num{font-family:'Space Mono',monospace;font-size:clamp(25px,3vw,36px);font-weight:700;color:var(--forest);letter-spacing:-.04em}.metric-label{margin-top:6px;font-size:11px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase}.metric-note{font-size:10px;color:#8a988b;margin-top:3px}
+section{padding:92px 0}.section-head{margin-bottom:35px}.section-head .eyebrow{color:var(--leaf)}.section-head h2{font-size:clamp(30px,4vw,43px);margin:12px 0;color:var(--forest);letter-spacing:-.02em}.section-head p{max-width:650px;color:var(--muted)}.about-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:start}.about-copy p{color:var(--muted);margin:0 0 16px;font-size:16px}.about-copy strong{color:var(--ink)}.focus-panel{background:var(--cream);border:1px solid var(--line);border-radius:18px;padding:28px}.focus-panel h3{font-size:22px;color:var(--forest);margin-bottom:17px}.focus-list{list-style:none;display:grid;gap:12px}.focus-list li{display:flex;gap:12px;align-items:center;color:#4e6153;font-size:14px}.focus-list li:before{content:"✦";color:var(--gold);font-size:12px}
+.research{background:#edf1e8}.research-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.research-card{background:white;border:1px solid #e1e8dd;border-radius:16px;padding:24px;transition:transform .2s,box-shadow .2s}.research-card:hover{transform:translateY(-4px);box-shadow:0 14px 35px rgba(20,43,33,.08)}.research-icon{width:43px;height:43px;border-radius:13px;background:#eaf0e2;color:var(--forest);display:grid;place-items:center;font-size:20px;margin-bottom:15px}.research-card h3{font-size:20px;margin-bottom:8px;color:var(--forest)}.research-card p{font-size:13px;color:var(--muted)}
+.pub-section{background:var(--paper)}.pub-top{display:flex;align-items:end;justify-content:space-between;gap:20px}.pub-list{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.pub-card{background:white;border:1px solid var(--line);border-radius:15px;padding:23px;display:flex;flex-direction:column;min-height:220px}.pub-year{font-family:'Space Mono',monospace;color:var(--leaf);font-size:11px;letter-spacing:.1em;margin-bottom:12px}.pub-card h3{font-size:18px;line-height:1.35;color:var(--forest);margin-bottom:12px}.pub-meta{font-size:12px;color:var(--muted);margin-top:auto}.pub-link{margin-top:14px;font-size:12px;font-weight:700;color:#517b4e}.empty-pubs{grid-column:1/-1;background:white;border:1px dashed #d7dfd2;border-radius:15px;padding:25px;color:var(--muted);font-size:14px}
+.contact{padding:0 0 80px}.contact-box{background:var(--forest);color:#f5f6ee;border-radius:22px;padding:44px;display:flex;align-items:center;justify-content:space-between;gap:24px;overflow:hidden;position:relative}.contact-box:after{content:"";position:absolute;right:-80px;top:-140px;width:330px;height:330px;border:1px solid rgba(199,216,164,.15);border-radius:50%;box-shadow:0 0 0 35px rgba(199,216,164,.04)}.contact-box h2{font-size:30px;margin-bottom:7px}.contact-box p{color:#c5d2c4;font-size:14px}.contact-box .btn{position:relative;z-index:1;white-space:nowrap}.footer{background:#10231a;color:#b6c4b6;padding:25px 0;font-size:12px}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer strong{color:#e8eee4}.update-note{font-size:10px;color:#8b9c8d;margin-top:8px}
+@media(max-width:900px){.hero-grid{grid-template-columns:230px 1fr;gap:38px}.portrait,.portrait-wrap{width:220px}.portrait{height:260px}.research-grid{grid-template-columns:repeat(2,1fr)}.pub-list{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){.nav-inner{height:66px}.menu-btn{display:block}.nav-links{display:none;position:absolute;left:0;right:0;top:66px;background:var(--forest);padding:18px 5%;flex-direction:column;align-items:flex-start;border-top:1px solid rgba(255,255,255,.1)}.nav-links.open{display:flex}.hero{padding:56px 0 72px}.hero-grid{grid-template-columns:1fr;text-align:center;gap:34px}.portrait-wrap{width:205px}.portrait{width:205px;height:235px}.eyebrow{justify-content:center}.hero-sub{font-size:16px;margin:auto}.hero-tags,.actions{justify-content:center}.metric-grid{grid-template-columns:repeat(2,1fr)}.metric:nth-child(2){border-right:0}.metric:nth-child(-n+2){border-bottom:1px solid var(--line)}.metric{padding:20px}.metric-num{font-size:28px}section{padding:65px 0}.about-grid{grid-template-columns:1fr;gap:25px}.research-grid,.pub-list{grid-template-columns:1fr}.pub-top{align-items:start;flex-direction:column}.contact-box{padding:30px;flex-direction:column;align-items:flex-start}.contact-box h2{font-size:25px}.contact-box .btn{white-space:normal}.footer-inner{flex-direction:column}}
 </style>
 </head>
-
 <body>
-
-<nav>
-  <div class="logo">T.K. <span>Das</span></div>
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#impact">Impact</a></li>
-    <li><a href="#publications">Publications</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
-    <span></span><span></span><span></span>
-  </button>
-</nav>
-
-<header class="hero-section" id="home">
-  <div class="hero-grid">
-    <img class="hero-photo" src="https://www.iari.res.in/sci_db/photo/10499.jpg" alt="Dr. T.K. Das">
-    <div>
-      <span class="eyebrow">Division of Agronomy · ICAR-IARI, New Delhi</span>
-      <h1>Dr. T.K. Das</h1>
-      <p class="role">
-        <strong>Principal Scientist</strong> &amp; Professor —
-        Weed Science, Conservation Agriculture and Precision Agronomy
-      </p>
-      <a class="btn" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">
-        View Google Scholar ↗
-      </a>
-    </div>
-  </div>
-</header>
-<div class="furrow"></div>
-
-<section class="container" id="impact">
-  <div class="section-head">
-    <span class="eyebrow">By the numbers</span>
-    <h2>Research Impact</h2>
-  </div>
-
-  <div class="stats">
-    <div class="stat-card"><span class="num" id="scholar-citations">8,860</span><p>Citations</p></div>
-    <div class="stat-card"><span class="num" id="scholar-hindex">47</span><p>h-index</p></div>
-    <div class="stat-card"><span class="num" id="scholar-i10">170</span><p>i10-index</p></div>
-    <div class="stat-card"><span class="num" id="scholar-pubs">300+</span><p>Publications</p></div>
-  </div>
-</section>
-
-<section class="container" id="about">
-  <div class="section-head">
-    <span class="eyebrow">Profile</span>
-    <h2>About</h2>
-  </div>
-
-  <div class="about-grid">
-    <div>
-      <p>
-        Dr. T.K. Das is a <strong>Principal Scientist</strong> in the Division of Agronomy at
-        ICAR-Indian Agricultural Research Institute, New Delhi.
-      </p>
-      <p>
-        His research centres on weed science, conservation agriculture, herbicide management,
-        sustainable crop production and precision agronomy — work that shapes practical, field-level
-        recommendations for Indian agriculture.
-      </p>
-      <p>
-        He has guided multiple M.Sc. and Ph.D. students and contributed extensively to agricultural
-        research, mentorship and academic publishing.
-      </p>
-    </div>
-
-    <div class="focus-list">
-      <h3>Research Focus</h3>
-      <ul>
-        <li>Weed Science</li>
-        <li>Conservation Agriculture</li>
-        <li>Herbicide Management</li>
-        <li>Sustainable Crop Production</li>
-        <li>Precision Agronomy</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="container" id="publications">
-  <div class="section-head">
-    <span class="eyebrow">Books &amp; papers</span>
-    <h2>Publications</h2>
-  </div>
-
-  <div class="pub-list" id="latest-publications">
-    <div class="pub"><span class="tag">Google Scholar</span><h3>Publication list is being updated</h3><p>Visit Google Scholar for the complete publication list.</p><a href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener" style="color:var(--sage)">View publications ↗</a></div>
-  </div>
-</section>
-
-<section class="contact-band" id="contact">
-  <h2>Get in touch</h2>
-  <p>Division of Agronomy, ICAR-IARI, Pusa Campus, New Delhi</p>
-  <a class="btn" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">
-    View Google Scholar ↗
-  </a>
-</section>
-
-<footer>
-  <p>© 2026 Dr. T.K. Das · ICAR-IARI, New Delhi</p>
-</footer>
-
+<nav class="nav"><div class="wrap nav-inner">
+<a class="brand" href="#home"><span class="brand-mark">TD</span><span>T.K. DAS<small>AGRONOMY · IARI</small></span></a>
+<button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+<ul class="nav-links" id="navLinks"><li><a href="#home">Home</a></li><li><a href="#about">Profile</a></li><li><a href="#research">Research</a></li><li><a href="#impact">Impact</a></li><li><a href="#publications">Publications</a></li></ul>
+</div></nav>
+<header class="hero" id="home"><div class="wrap hero-grid">
+<div class="portrait-wrap"><img class="portrait" src="https://www.iari.res.in/sci_db/photo/10499.jpg" alt="Portrait of Dr. T.K. Das"><div class="portrait-caption">ICAR · Indian Agricultural Research Institute</div></div>
+<div class="hero-content"><div class="eyebrow">Division of Agronomy · New Delhi</div><h1>Dr. T.K. Das</h1><p class="hero-sub"><strong>Principal Scientist &amp; Professor</strong> — Weed Science, Conservation Agriculture and Precision Agronomy.</p>
+<div class="hero-tags"><span>Weed Science</span><span>Conservation Agriculture</span><span>Precision Agronomy</span></div><div class="actions"><a class="btn btn-primary" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a><a class="btn btn-outline" href="#research">Explore Research ↓</a></div></div>
+</div></header>
+<div class="wrap metrics" id="impact"><div class="metric-grid">
+<div class="metric"><div class="metric-num" id="scholar-citations">8,860</div><div class="metric-label">Citations</div><div class="metric-note">Google Scholar</div></div>
+<div class="metric"><div class="metric-num" id="scholar-hindex">47</div><div class="metric-label">h-index</div><div class="metric-note">Research impact</div></div>
+<div class="metric"><div class="metric-num" id="scholar-i10">170</div><div class="metric-label">i10-index</div><div class="metric-note">Publications cited ≥10</div></div>
+<div class="metric"><div class="metric-num" id="scholar-pubs">300+</div><div class="metric-label">Publications</div><div class="metric-note">Books &amp; research papers</div></div>
+</div></div>
+<section id="about"><div class="wrap"><div class="section-head"><div class="eyebrow">Academic profile</div><h2>Research rooted in the field.<br>Ideas built for the future.</h2><p>Advancing sustainable crop production through weed science, conservation agriculture and precision-based approaches.</p></div>
+<div class="about-grid"><div class="about-copy"><p>Dr. T.K. Das is a <strong>Principal Scientist</strong> in the Division of Agronomy at ICAR–Indian Agricultural Research Institute, New Delhi.</p><p>His research focuses on weed science, conservation agriculture, herbicide management, sustainable crop production and precision agronomy—connecting scientific research with practical field-level solutions.</p><p>His work contributes to resilient production systems, resource conservation and the development of more sustainable agricultural practices.</p></div><div class="focus-panel"><h3>Areas of expertise</h3><ul class="focus-list"><li>Weed Science &amp; Weed Ecology</li><li>Conservation Agriculture</li><li>Herbicide Management</li><li>Sustainable Cropping Systems</li><li>Precision Agronomy</li></ul></div></div></div></section>
+<section class="research" id="research"><div class="wrap"><div class="section-head"><div class="eyebrow">Research themes</div><h2>Science for sustainable agriculture</h2><p>Key areas of research and application across modern crop production systems.</p></div><div class="research-grid">
+<div class="research-card"><div class="research-icon">⌁</div><h3>Weed Management</h3><p>Integrated, ecological and precision approaches to manage weeds and reduce crop losses.</p></div>
+<div class="research-card"><div class="research-icon">◈</div><h3>Conservation Agriculture</h3><p>Crop production systems built around soil health, residue management and reduced disturbance.</p></div>
+<div class="research-card"><div class="research-icon">⌘</div><h3>Precision Agronomy</h3><p>Smarter use of water, nutrients and technology for efficient and productive agriculture.</p></div>
+<div class="research-card"><div class="research-icon">✳</div><h3>Herbicide Stewardship</h3><p>Responsible herbicide use, resistance management and integrated weed-control strategies.</p></div>
+<div class="research-card"><div class="research-icon">♧</div><h3>Sustainable Cropping</h3><p>Improving productivity while strengthening environmental performance and resilience.</p></div>
+<div class="research-card"><div class="research-icon">◎</div><h3>Field Research &amp; Extension</h3><p>Translating research outcomes into practical technologies and farmer-focused solutions.</p></div>
+</div></div></section>
+<section class="pub-section" id="publications"><div class="wrap"><div class="section-head pub-top"><div><div class="eyebrow">Selected scholarly work</div><h2>Recent publications</h2><p>Selected papers from the Google Scholar profile.</p></div><a class="btn btn-primary" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">View all publications ↗</a></div><div class="pub-list" id="latest-publications"><div class="empty-pubs">Publication list is being loaded. Visit Google Scholar for the complete record.</div></div></div></section>
+<section class="contact"><div class="wrap"><div class="contact-box"><div><h2>Explore the research</h2><p>Visit the Google Scholar profile for publications, citations and research contributions.</p></div><a class="btn btn-primary" href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">Open Google Scholar ↗</a></div></div></section>
+<footer class="footer"><div class="wrap footer-inner"><div><strong>Dr. T.K. Das</strong> · Division of Agronomy, ICAR-IARI, New Delhi</div><div>Academic profile · Research · Publications</div></div><div class="wrap update-note" id="dataUpdated">Metrics shown from the last available local data snapshot.</div></footer>
 <script>
-  // Mobile nav toggle
-  const navToggle = document.getElementById('navToggle');
-  const navLinks = document.getElementById('navLinks');
-  navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
-  navLinks.querySelectorAll('a').forEach(a =>
-    a.addEventListener('click', () => navLinks.classList.remove('open'))
-  );
-
-  // Active nav link on scroll
-  const sections = document.querySelectorAll('section[id], header[id]');
-  const links = document.querySelectorAll('.nav-links a');
-  const setActive = () => {
-    let current = 'home';
-    sections.forEach(sec => {
-      const top = sec.offsetTop - 100;
-      if (window.scrollY >= top) current = sec.getAttribute('id');
-    });
-    links.forEach(l => {
-      l.classList.toggle('active', l.getAttribute('href') === '#' + current);
-    });
-  };
-  window.addEventListener('scroll', setActive);
-  setActive();
-
-  // Reveal stat cards on scroll
-  const cards = document.querySelectorAll('.stat-card');
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in-view'); });
-  }, { threshold: 0.2 });
-  cards.forEach(c => io.observe(c));
-
-  // Automatically load metrics and recent publications from the scheduled Scholar data file.
-  fetch('scholar_data.json', {cache:'no-store'})
-    .then(r => { if(!r.ok) throw new Error('Scholar data unavailable'); return r.json(); })
-    .then(data => {
-      const set = (id, value) => { const el=document.getElementById(id); if(el && value != null) el.textContent = value.toLocaleString('en-IN'); };
-      set('scholar-citations', data.citations); set('scholar-hindex', data.h_index);
-      set('scholar-i10', data.i10_index); set('scholar-pubs', data.publication_count);
-      const wrap=document.getElementById('latest-publications');
-      if(wrap && Array.isArray(data.publications) && data.publications.length > 0) {
-        wrap.innerHTML='';
-        data.publications.slice(0,3).forEach(p=>{
-          const card=document.createElement('div'); card.className='pub';
-          const tag=document.createElement('span'); tag.className='tag'; tag.textContent=p.year || 'Publication';
-          const h=document.createElement('h3'); h.textContent=p.title || 'Untitled publication';
-          const desc=document.createElement('p'); desc.textContent=[p.authors,p.venue].filter(Boolean).join(' · ');
-          card.append(tag,h,desc);
-          if(p.url){ const a=document.createElement('a'); a.href=p.url; a.target='_blank'; a.rel='noopener'; a.textContent='View paper ↗'; a.style.color='var(--sage)'; card.append(a); }
-          wrap.append(card);
-        });
-      }
-    }).catch(err => console.warn('Scholar auto-update data not loaded:', err));
-
+const menuBtn=document.getElementById('menuBtn'),nav=document.getElementById('navLinks');menuBtn.addEventListener('click',()=>nav.classList.toggle('open'));nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+const formatNum=v=>typeof v==='number'?v.toLocaleString('en-IN'):v;
+fetch('scholar_data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('data unavailable');return r.json()}).then(data=>{
+ const set=(id,v)=>{if(v!==null&&v!==undefined&&v!=='')document.getElementById(id).textContent=formatNum(v)};
+ set('scholar-citations',data.citations);set('scholar-hindex',data.h_index);set('scholar-i10',data.i10_index);set('scholar-pubs',data.publication_count);
+ const date=data.updated_at;if(date)document.getElementById('dataUpdated').textContent='Metrics last updated: '+date;
+ const list=document.getElementById('latest-publications');if(Array.isArray(data.publications)&&data.publications.length){list.innerHTML='';data.publications.slice(0,3).forEach(p=>{const card=document.createElement('article');card.className='pub-card';const year=document.createElement('div');year.className='pub-year';year.textContent=p.year||'PUBLICATION';const title=document.createElement('h3');title.textContent=p.title||'Untitled paper';const meta=document.createElement('div');meta.className='pub-meta';meta.textContent=[p.authors,p.venue].filter(Boolean).join(' · ');card.append(year,title,meta);if(p.url){const a=document.createElement('a');a.className='pub-link';a.href=p.url;a.target='_blank';a.rel='noopener';a.textContent='Read paper ↗';card.append(a)}list.append(card)})}
+}).catch(err=>console.warn('Scholar snapshot not loaded; fallback metrics retained.',err));
 </script>
-
 </body>
 </html>
