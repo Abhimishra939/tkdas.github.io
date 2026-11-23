@@ -446,10 +446,10 @@
   </div>
 
   <div class="stats">
-    <div class="stat-card"><span class="num" id="scholar-citations">—</span><p>Citations</p></div>
-    <div class="stat-card"><span class="num" id="scholar-hindex">—</span><p>h-index</p></div>
-    <div class="stat-card"><span class="num" id="scholar-i10">—</span><p>i10-index</p></div>
-    <div class="stat-card"><span class="num" id="scholar-pubs">—</span><p>Publications</p></div>
+    <div class="stat-card"><span class="num" id="scholar-citations">8,860</span><p>Citations</p></div>
+    <div class="stat-card"><span class="num" id="scholar-hindex">47</span><p>h-index</p></div>
+    <div class="stat-card"><span class="num" id="scholar-i10">170</span><p>i10-index</p></div>
+    <div class="stat-card"><span class="num" id="scholar-pubs">300+</span><p>Publications</p></div>
   </div>
 </section>
 
@@ -496,7 +496,7 @@
   </div>
 
   <div class="pub-list" id="latest-publications">
-    <div class="pub"><span class="tag">Google Scholar</span><h3>Loading latest publications…</h3><p>Publication information is updated automatically from the Google Scholar profile.</p></div>
+    <div class="pub"><span class="tag">Google Scholar</span><h3>Publication list is being updated</h3><p>Visit Google Scholar for the complete publication list.</p><a href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener" style="color:var(--sage)">View publications ↗</a></div>
   </div>
 </section>
 
@@ -548,11 +548,11 @@
   fetch('scholar_data.json', {cache:'no-store'})
     .then(r => { if(!r.ok) throw new Error('Scholar data unavailable'); return r.json(); })
     .then(data => {
-      const set = (id, value) => { const el=document.getElementById(id); if(el) el.textContent = (value ?? '—').toLocaleString('en-IN'); };
+      const set = (id, value) => { const el=document.getElementById(id); if(el && value != null) el.textContent = value.toLocaleString('en-IN'); };
       set('scholar-citations', data.citations); set('scholar-hindex', data.h_index);
       set('scholar-i10', data.i10_index); set('scholar-pubs', data.publication_count);
       const wrap=document.getElementById('latest-publications');
-      if(wrap && Array.isArray(data.publications)) {
+      if(wrap && Array.isArray(data.publications) && data.publications.length > 0) {
         wrap.innerHTML='';
         data.publications.slice(0,3).forEach(p=>{
           const card=document.createElement('div'); card.className='pub';
