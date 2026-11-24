@@ -279,9 +279,33 @@ section { padding: 82px 0; }
   border-radius: 18px; padding: 26px;
 }
 .focus-panel h3 { font-size: 21px; color: var(--forest); margin-bottom: 14px; }
-.focus-list { list-style: none; display: grid; gap: 11px; }
-.focus-list li { display: flex; gap: 10px; align-items: flex-start; color: var(--ink); font-size: 14px; }
-.focus-list li::before { content: "✦"; color: var(--gold); font-size: 12px; margin-top: 2px; }
+.focus-list { list-style: none; display: grid; gap: 13px; }
+.focus-list li {
+  position: relative;
+  padding-left: 20px;
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.62;
+  display: block;
+}
+.focus-list li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  top: 1px;
+  color: var(--gold);
+  font-size: 11px;
+}
+.focus-list li sub, .focus-list li sup,
+.research-card sub, .research-card sup,
+.book-card sub, .book-card sup {
+  font-size: 0.72em;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.focus-list li sub { bottom: -0.22em; }
+.focus-list li sup { top: -0.42em; }
 
 /* Cards */
 .research { background: var(--bg-alt); }
@@ -401,6 +425,7 @@ section { padding: 82px 0; }
   .portrait, .portrait-wrap, .portrait-fallback { width: 215px; height: 250px; }
   .research-grid, .achievement-grid, .pub-list { grid-template-columns: repeat(2, 1fr); }
   .about-grid { grid-template-columns: 1fr; }
+  .nav-inner { flex-wrap: wrap; padding: 10px 0; }
 }
 @media (max-width: 760px) {
   .menu-btn { display: block; }
@@ -419,4 +444,9 @@ section { padding: 82px 0; }
   .metric:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
   .research-grid, .achievement-grid, .pub-list { grid-template-columns: 1fr; }
   .contact-box { flex-direction: column; align-items: flex-start; padding: 28px; }
+}
+
+@media (max-width: 760px) {
+  #chapters-grid, #books-grid { grid-template-columns: 1fr !important; }
+  .book-card, .pub-card, .achievement-card, .research-card { padding: 20px; }
 }

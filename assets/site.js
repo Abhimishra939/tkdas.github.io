@@ -212,18 +212,19 @@
       const q = query.toLowerCase().trim();
       const filtered = ARCHIVE.books.filter((b) => {
         const matchType = filterType === 'ALL' || b.type === filterType;
-        const matchQ = !q || b.citation.toLowerCase().includes(q) || String(b.year).includes(q);
+        const matchQ = !q || (b.title || '').toLowerCase().includes(q) || (b.authors || '').toLowerCase().includes(q) || (b.details || '').toLowerCase().includes(q) || b.citation.toLowerCase().includes(q) || String(b.year).includes(q);
         return matchType && matchQ;
       });
       booksContainer.innerHTML = filtered.length
         ? filtered.map((b, i) => `
-          <article class="book-card reveal is-visible">
-            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;gap:8px;flex-wrap:wrap">
-              <span class="badge-tag">${escapeHtml(b.type)}</span>
+          <article class="book-card reveal is-visible" style="display:flex;flex-direction:column;gap:8px">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px;gap:8px;flex-wrap:wrap">
+              <span class="badge-tag">#${i + 1} · ${escapeHtml(b.type)}</span>
               <span class="naas-pill">${escapeHtml(b.year)}</span>
             </div>
-            <h3>#${i + 1} · ${escapeHtml(b.citation.split('.')[2] || b.citation.slice(0, 75))}</h3>
-            <p style="margin-top:8px;line-height:1.6">${escapeHtml(b.citation)}</p>
+            <h3 style="margin:0;font-size:18.5px;line-height:1.35">${escapeHtml(b.title || b.citation)}</h3>
+            <p style="margin:2px 0 0;font-size:13px;font-weight:600;color:var(--ink);line-height:1.5">${escapeHtml(b.authors || '')}</p>
+            <p style="margin:auto 0 0;padding-top:6px;font-size:12.5px;color:var(--muted);line-height:1.55">${escapeHtml(b.details || b.citation)}</p>
           </article>`).join('')
         : '<p style="color:var(--muted)">No books matched your filter.</p>';
     }
