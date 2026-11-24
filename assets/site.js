@@ -3,6 +3,37 @@
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const ARCHIVE = window.TKD_ARCHIVE || {};
 
+  /* ---------- 0. Unified Professional Academic Footer ---------- */
+  const footerEl = document.querySelector('footer.footer');
+  if (footerEl) {
+    footerEl.innerHTML = `
+      <div class="wrap">
+        <div class="footer-top">
+          <div class="footer-identity">
+            <strong>Dr. Tapas Kumar Das <span class="footer-fellows">FNASc · FNAAS · FISA · FISWS · FSPPS</span></strong>
+            <span class="footer-affil">Professor &amp; Principal Scientist · Division of Agronomy, ICAR–Indian Agricultural Research Institute (IARI), New Delhi – 110 012</span>
+          </div>
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">Profile</a>
+            <a href="research.html">Research</a>
+            <a href="achievements.html">Achievements</a>
+            <a href="books.html">Books &amp; Chapters</a>
+            <a href="publications.html">Publications</a>
+            <a href="top50.html">Top 50</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://scholar.google.co.in/citations?user=wfz2In0AAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
+            <a href="#top" class="footer-top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">↑ Top</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <div>© ${new Date().getFullYear()} Dr. Tapas Kumar Das · All Rights Reserved</div>
+          <div class="update-note" id="dataUpdated">Google Scholar metrics synced · Official Academic Portfolio</div>
+        </div>
+      </div>
+    `;
+  }
+
   /* ---------- 1. Live Theme Engine ---------- */
   const savedTheme = localStorage.getItem('tkd_theme') || 'emerald';
   function applyTheme(t) {
@@ -192,7 +223,7 @@
 
       const note = document.getElementById('dataUpdated');
       if (note && data.updated_at) {
-        note.textContent = 'Google Scholar metrics synced: ' + data.updated_at.split('T')[0] + ' · Complete CV & Publication Archive integrated.';
+        note.textContent = 'Google Scholar metrics synced: ' + data.updated_at.split('T')[0] + ' · President, ISWS (2025–27)';
       }
       renderScholarCards(document.getElementById('latest-publications'), data.publications, 3);
       window.SCHOLAR_PUBS = data.publications || [];
