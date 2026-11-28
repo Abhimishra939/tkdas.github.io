@@ -2,7 +2,7 @@
   "profile_id": "wfz2In0AAAAJ",
   "profile_url": "https://scholar.google.com/citations?user=wfz2In0AAAAJ",
   "name": "Dr. T. K. Das Principal Scientist &Professor FNASc FNAAS FISA FISWS FSPPS Gold Medal (ISA & ISWS)",
-  "citations": 8893,
+  "citations": 8900,
   "h_index": 47,
   "i10_index": 170,
   "publication_count": 100,
@@ -21,7 +21,7 @@
       "authors": "Das,T.K., Behera,B., Nath,C.P., Ghosh,S., Sen,S., Raj,R., Ghosh,Sonaka ...",
       "venue": "Crop Protection 181, 106691, 2024",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:KKBjqD86ppkC",
-      "citations": 100
+      "citations": 101
     },
     {
       "title": "Modeling maize growth and nitrogen dynamics using CERES-Maize (DSSAT) under diverse nitrogen management options in a conservation agriculture-based maize-wheat system",
@@ -37,7 +37,7 @@
       "authors": "P Govindasamy, SK Muthusamy, M Bagavathiannan, J Mowrer, ...",
       "venue": "Frontiers in Plant Science 14, 1121073, 2023",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:hXZnTIgIr50C",
-      "citations": 691
+      "citations": 692
     },
     {
       "title": "Mechanisms of allelopathic interactions for sustainable weed management",
@@ -189,7 +189,7 @@
       "authors": "B Behera, TK Das*, Rishi Raj, Sonaka Ghosh, Md Basit Raza, Suman Sen",
       "venue": "Agricultural Research 10 (1), 1-14, 2020",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:CMPXdcK5v8EC",
-      "citations": 89
+      "citations": 90
     },
     {
       "title": "The weed Orobanche: species distribution, diversity, biology and management",
@@ -325,7 +325,7 @@
       "authors": "VS Susha, TK Das*, CP Nath, R Pandey, S Paul, S Ghosh",
       "venue": "Field Crops Research 219, 180-191, 2018",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:MNNNGtAgD4EC",
-      "citations": 92
+      "citations": 93
     },
     {
       "title": "Water balance in direct-seeded rice under conservation agriculture in North-western Indo-Gangetic Plains of India",
@@ -637,7 +637,7 @@
       "authors": "M Younesabadi, TK Das, AR Sharma",
       "venue": "Indian Journal of Agronomy 58 (3), 372-378, 2013",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:uDGL6kOW6j0C",
-      "citations": 54
+      "citations": 55
     },
     {
       "title": "Methane and nitrous oxide emissions from soils under direct seeded rice",
@@ -741,7 +741,7 @@
       "authors": "TK Das",
       "venue": "Jain Brothers Publishers, New Delhi. 901p, 2008",
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wfz2In0AAAAJ&pagesize=100&citation_for_view=wfz2In0AAAAJ:e84hm74t-eoC",
-      "citations": 376
+      "citations": 377
     },
     {
       "title": "Integrated weed management for system productivity and economics in soybean (Glycine max)-wheat (Triticum aestivum) system",
@@ -808,6 +808,6 @@
       "citations": 25
     }
   ],
-  "updated_at": "2026-11-27T07:58:39+00:00",
+  "updated_at": "2026-11-28T07:28:46+00:00",
   "source": "SerpApi Google Scholar Author API"
 }
